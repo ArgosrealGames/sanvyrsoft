@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Pagina Iniziale",
+    "services": "Servizi",
+    "about": "Chi Siamo",
+    "portfolio": "Portfolio",
+    "contact": "Contatto"
+  },
+  "hero": {
+    "title": "Architetti del Futuro Digitale",
+    "subtitle": "Sanvyrsoft trasforma idee complesse in soluzioni software ad alte prestazioni, giochi coinvolgenti e sistemi di gestione intelligenti.",
+    "cta": "Esplora l'Ecosistema",
+    "secondary_cta": "I Nostri Progetti"
+  },
+  "services": {
+    "title": "La Nostra Esperienza",
+    "saas": {
+      "title": "Software as a Service (SaaS)",
+      "desc": "Sviluppiamo piattaforme cloud scalabili che risolvono problemi reali con efficienza e un design incentrato sull'utente."
+    },
+    "games": {
+      "title": "Giochi e Interattività",
+      "desc": "Creiamo esperienze immersive e mondi digitali che sfidano i limiti della tecnologia e dell'intrattenimento."
+    },
+    "management": {
+      "title": "Sistemi di Gestione (ERP)",
+      "desc": "Software di gestione personalizzato que ottimizza os processos e aumenta la produttività della tua azienda."
+    }
+  },
+  "footer": {
+    "about": "Sanvyrsoft è uno sviluppatore di software focalizzato sull'innovazione e sul futuro dell'ecosistema digitale.",
+    "rights": "Tutti i diritti riservati. Sanvyrsoft.com",
+    "links": "Link Utili",
+    "legal": "Legale"
+  }
+}
