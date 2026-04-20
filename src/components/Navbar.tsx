@@ -35,6 +35,13 @@ export default function Navbar({ currentLocale, setLocale, t }: NavbarProps) {
 
         <div className={styles.langPicker}>
           <Globe size={18} className={styles.globeIcon} />
+          
+          <div className={styles.langDisplay}>
+            <span className={styles.langCurrentName}>
+              {languages.find(l => l.code === currentLocale)?.name}
+            </span>
+          </div>
+
           <select 
             value={currentLocale} 
             onChange={(e) => setLocale(e.target.value)}
