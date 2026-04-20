@@ -23,16 +23,27 @@
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  height: 55px; /* Ajustado para caber no Navbar de 80px */
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.logoImg:hover {
+  transform: scale(1.05);
+}
+
 .logoText {
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  color: var(--text-primary);
+  display: none;
 }
 
 .logoHighlight {
-  color: var(--accent-primary);
-  text-shadow: 0 0 10px var(--accent-glow);
+  display: none;
 }
 
 .menu {
@@ -69,50 +80,39 @@
   color: var(--accent-secondary);
 }
 
-.langList {
-  display: flex;
-  gap: 0.75rem;
-}
-
-.langBtn {
+.langSelect {
   background: transparent;
   border: none;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-  opacity: 0.5;
-  border: 1px solid transparent;
+  outline: none;
+  padding-right: 0.5rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
-.langFlag {
-  font-size: 1.2rem;
+.langSelect option {
+  background: #0a0512;
+  color: #fff;
+  padding: 10px;
 }
 
-.langName {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: #fff; /* White for high contrast */
-  letter-spacing: 0.05em;
-}
-
-.langBtn:hover, .langBtn.active {
-  opacity: 1;
-  background: rgba(99, 102, 241, 0.15);
-  border-color: var(--accent-primary);
-  transform: translateY(-2px);
-}
-
-.langBtn.active .langName {
+.langPicker::after {
+  content: '▼';
+  font-size: 0.6rem;
   color: var(--accent-secondary);
-  text-shadow: 0 0 8px rgba(6, 182, 212, 0.5);
+  pointer-events: none;
 }
 
 @media (max-width: 768px) {
   .menu {
-    display: none; /* Simplificado para demo */
+    display: none; 
+  }
+  
+  .langPicker {
+    padding: 0.4rem 0.8rem;
   }
 }

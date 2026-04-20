@@ -24,7 +24,7 @@ export default function Navbar({ currentLocale, setLocale, t }: NavbarProps) {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <span className={styles.logoText}>SANVYR<span className={styles.logoHighlight}>SOFT</span></span>
+          <img src="/Logo_512.png" alt="Sanvyrsoft Logo" className={styles.logoImg} />
         </div>
         
         <div className={styles.menu}>
@@ -35,18 +35,17 @@ export default function Navbar({ currentLocale, setLocale, t }: NavbarProps) {
 
         <div className={styles.langPicker}>
           <Globe size={18} className={styles.globeIcon} />
-          <div className={styles.langList}>
+          <select 
+            value={currentLocale} 
+            onChange={(e) => setLocale(e.target.value)}
+            className={styles.langSelect}
+          >
             {languages.map((lang) => (
-              <button 
-                key={lang.code}
-                className={`${styles.langBtn} ${currentLocale === lang.code ? styles.active : ''}`}
-                onClick={() => setLocale(lang.code)}
-              >
-                <span className={styles.langFlag}>{lang.flag}</span>
-                <span className={styles.langName}>{lang.name}</span>
-              </button>
+              <option key={lang.code} value={lang.code}>
+                {lang.name}
+              </option>
             ))}
-          </div>
+          </select>
         </div>
       </div>
     </nav>
