@@ -8,6 +8,21 @@ export default function Contact({ t }: { t: any }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [result, setResult] = useState<{ success?: boolean; error?: string } | null>(null);
 
+  const contactT = t.contact_form || {
+    subtitle: "Entre em contato conosco para transformar sua ideia em realidade.",
+    name: "Nome",
+    name_placeholder: "Seu nome",
+    email: "E-mail",
+    email_placeholder: "seu@email.com",
+    message: "Mensagem",
+    message_placeholder: "Como podemos ajudar?",
+    send: "Enviar Mensagem",
+    sending: "Enviando...",
+    success: "Mensagem enviada com sucesso!",
+    error_connection: "Erro de conexão. Por favor, verifique sua internet ou tente novamente mais tarde.",
+    error_generic: "Falha ao enviar e-mail. Por favor, tente novamente mais tarde."
+  };
+
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setIsSubmitting(true);
@@ -21,10 +36,12 @@ export default function Contact({ t }: { t: any }) {
         setResult({ success: true });
         formRef.current?.reset();
       } else {
-        setResult({ error: response.error });
+        setResult({ error: response.error || contactT.error_generic });
       }
-    } catch (err) {
-      setResult({ error: 'Erro de conexão. Por favor, verifique sua internet.' });
+    } catch (err: any) {
+      console.error('Frontend Submit Error:', err);
+      // Se chegamos aqui, ou a Action deu timeout ou o servidor retornou 500
+      setResult({ error: contactT.error_connection });
     } finally {
       setIsSubmitting(false);
     }
@@ -36,7 +53,7 @@ export default function Contact({ t }: { t: any }) {
         <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>{t.nav.contact || 'Contact'}</h2>
           <p style={{ color: 'rgba(255,255,255,0.6)' }}>
-            Entre em contato conosco para transformar sua ideia em realidade.
+            {contactT.subtitle}
           </p>
         </div>
 
@@ -51,13 +68,13 @@ export default function Contact({ t }: { t: any }) {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 <label style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', letterSpacing: '1px' }}>
-                  Nome
+                  {contactT.name}
                 </label>
                 <input 
                   name="name"
                   type="text" 
                   required 
-                  placeholder="Seu nome"
+                  placeholder={contactT.name_placeholder}
                   style={{ 
                     background: 'rgba(255,255,255,0.05)', 
                     border: '1px solid rgba(255,255,255,0.1)', 
@@ -70,13 +87,13 @@ export default function Contact({ t }: { t: any }) {
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 <label style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', letterSpacing: '1px' }}>
-                  E-mail
+                  {contactT.email}
                 </label>
                 <input 
                   name="email"
                   type="email" 
                   required 
-                  placeholder="seu@email.com"
+                  placeholder={contactT.email_placeholder}
                   style={{ 
                     background: 'rgba(255,255,255,0.05)', 
                     border: '1px solid rgba(255,255,255,0.1)', 
@@ -91,13 +108,13 @@ export default function Contact({ t }: { t: any }) {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               <label style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', letterSpacing: '1px' }}>
-                Mensagem
+                {contactT.message}
               </label>
               <textarea 
                 name="message"
                 required 
                 rows={5}
-                placeholder="Como podemos ajudar?"
+                placeholder={contactT.message_placeholder}
                 style={{ 
                   background: 'rgba(255,255,255,0.05)', 
                   border: '1px solid rgba(255,255,255,0.1)', 
@@ -125,12 +142,12 @@ export default function Contact({ t }: { t: any }) {
                 opacity: isSubmitting ? 0.7 : 1
               }}
             >
-              {isSubmitting ? 'Enviando...' : 'Enviar Mensagem'}
+              {isSubmitting ? contactT.sending : contactT.send}
             </button>
 
             {result?.success && (
               <div style={{ color: '#4ade80', textAlign: 'center', fontSize: '0.9rem', padding: '1rem', background: 'rgba(74, 222, 128, 0.1)', borderRadius: '12px', border: '1px solid rgba(74, 222, 128, 0.2)' }}>
-                Mensagem enviada com sucesso!
+                {contactT.success}
               </div>
             )}
             {result?.error && (

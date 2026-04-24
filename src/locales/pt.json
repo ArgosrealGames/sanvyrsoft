@@ -32,5 +32,19 @@
     "rights": "Todos os direitos reservados. Sanvyrsoft.com",
     "links": "Links Úteis",
     "legal": "Jurídico"
+  },
+  "contact_form": {
+    "subtitle": "Entre em contato conosco para transformar sua ideia em realidade.",
+    "name": "Nome",
+    "name_placeholder": "Seu nome",
+    "email": "E-mail",
+    "email_placeholder": "seu@email.com",
+    "message": "Mensagem",
+    "message_placeholder": "Como podemos ajudar?",
+    "send": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada com sucesso!",
+    "error_connection": "Erro de conexão. Por favor, verifique sua internet ou tente novamente mais tarde.",
+    "error_generic": "Falha ao enviar e-mail. Por favor, tente novamente mais tarde."
   }
 }

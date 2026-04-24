@@ -32,5 +32,19 @@
     "rights": "All rights reserved. Sanvyrsoft.com",
     "links": "Useful Links",
     "legal": "Legal"
+  },
+  "contact_form": {
+    "subtitle": "Contact us to transform your idea into reality.",
+    "name": "Name",
+    "name_placeholder": "Your name",
+    "email": "Email",
+    "email_placeholder": "your@email.com",
+    "message": "Message",
+    "message_placeholder": "How can we help?",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error_connection": "Connection error. Please check your internet or try again later.",
+    "error_generic": "Failed to send email. Please try again later."
   }
 }
