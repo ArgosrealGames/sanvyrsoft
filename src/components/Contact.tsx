@@ -13,15 +13,20 @@ export default function Contact({ t }: { t: any }) {
     setIsSubmitting(true);
     setResult(null);
 
-    const formData = new FormData(e.currentTarget);
-    const response = await sendContactEmail(formData);
+    try {
+      const formData = new FormData(e.currentTarget);
+      const response = await sendContactEmail(formData);
 
-    setIsSubmitting(false);
-    if (response.success) {
-      setResult({ success: true });
-      formRef.current?.reset();
-    } else {
-      setResult({ error: response.error });
+      if (response.success) {
+        setResult({ success: true });
+        formRef.current?.reset();
+      } else {
+        setResult({ error: response.error });
+      }
+    } catch (err) {
+      setResult({ error: 'Erro de conexão. Por favor, verifique sua internet.' });
+    } finally {
+      setIsSubmitting(false);
     }
   }
 

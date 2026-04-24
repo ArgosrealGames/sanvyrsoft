@@ -14,23 +14,34 @@ export async function sendContactEmail(formData: FormData) {
   }
 
   try {
-    const data = await resend.emails.send({
+    console.log(`Tentando enviar email de: ${email} para Sanvyrsoft e Lionscript...`);
+    
+    const response = await resend.emails.send({
       from: 'Sanvyrsoft <contact@sanvyrsoft.com>',
-      to: ['contact@sanvyrsoft.com'],
+      to: ['contact@sanvyrsoft.com', 'help@lionscript.com'],
       replyTo: email,
       subject: `Novo Contato do Site: ${name}`,
       html: `
-        <h2>Nova mensagem de contato</h2>
-        <p><strong>Nome:</strong> ${name}</p>
-        <p><strong>E-mail:</strong> ${email}</p>
-        <p><strong>Mensagem:</strong></p>
-        <p>${message.replace(/\n/g, '<br/>')}</p>
+        <div style="font-family: sans-serif; line-height: 1.6;">
+          <h2>Nova mensagem de contato</h2>
+          <p><strong>Nome:</strong> ${name}</p>
+          <p><strong>E-mail:</strong> ${email}</p>
+          <hr/>
+          <p><strong>Mensagem:</strong></p>
+          <p style="white-space: pre-wrap;">${message}</p>
+        </div>
       `,
     });
 
-    return { success: true, data };
-  } catch (error) {
-    console.error('Error sending email:', error);
-    return { error: 'Falha ao enviar e-mail. Por favor, tente novamente mais tarde.' };
+    if (response.error) {
+      console.error('Erro retornado pelo Resend:', response.error);
+      return { error: `Erro no serviço de email: ${response.error.message}` };
+    }
+
+    console.log('Email enviado com sucesso:', response.data);
+    return { success: true };
+  } catch (error: any) {
+    console.error('Erro catastrófico ao enviar email:', error);
+    return { error: 'Falha técnica ao enviar e-mail. Por favor, tente novamente mais tarde.' };
   }
 }
