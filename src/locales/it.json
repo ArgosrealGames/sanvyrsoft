@@ -1,6 +1,7 @@
 {
   "nav": {
-    "home": "Pagina Iniziale",
+    "home": "Home",
+    "projects": "PROGETTI",
     "services": "Servizi",
     "about": "Chi Siamo",
     "portfolio": "Portfolio",
@@ -8,43 +9,100 @@
   },
   "hero": {
     "title": "Architetti del Futuro Digitale",
-    "subtitle": "Sanvyrsoft trasforma idee complesse in soluzioni software ad alte prestazioni, giochi coinvolgenti e sistemi di gestione intelligenti.",
-    "cta": "Esplora l'Ecosistema",
-    "secondary_cta": "I Nostri Progetti"
+    "subtitle": "Sanvyrsoft trasforma idee complesse in soluzioni tecnologiche ad alte prestazioni, hardware brevettato, videogiochi e sistemi intelligenti.",
+    "cta": "Scopri i Progetti",
+    "secondary_cta": "Chatta su WhatsApp"
   },
   "services": {
     "title": "La Nostra Esperienza",
     "saas": {
-      "title": "Software as a Service (SaaS)",
-      "desc": "Sviluppiamo piattaforme cloud scalabili che risolvono problemi reali con efficienza e un design incentrato sull'utente."
+      "title": "Hardware & HealthTech Brevettato",
+      "desc": "Sviluppiamo dispositivi biomedicali e sensori intelligenti con brevetti concessi e validazione clinica."
     },
     "games": {
-      "title": "Giochi e Interattività",
-      "desc": "Creiamo esperienze immersive e mondi digitali che sfidano i limiti della tecnologia e dell'intrattenimento."
+      "title": "Giochi & Motion Capture",
+      "desc": "Giochi ufficiali per console (PlayStation) e tecnologia di cattura del movimento ibrida senza derive."
     },
     "management": {
-      "title": "Sistemi di Gestione (ERP)",
-      "desc": "Software di gestione personalizzato que ottimizza os processos e aumenta la produttività della tua azienda."
+      "title": "Sistemi di Gestione & Software (ERP)",
+      "desc": "Software su misura, algoritmi dedicati e piattaforme cloud scalabili ad alta sicurezza."
     }
   },
+  "projects_hub": {
+    "badge": "OPPORTUNITÀ DI INVESTIMENTO",
+    "title": "Progetti in Evidenza per Investimenti e Partnership",
+    "subtitle": "Scopri le nostre innovazioni tecnologiche proprietarie, i brevetti concessi e i prodotti pronti per la scala commerciale.",
+    "cta_details": "Vedi Presentazione Completa",
+    "cta_whatsapp": "Chatta su WhatsApp",
+    "status_title": "Stato Attuale:",
+    "needs_title": "Fase Attuale / Capitale Richiesto:",
+    "sml3000": {
+      "tag": "HealthTech Brevettata",
+      "title": "SML-3000: Monitoraggio Termico Letti",
+      "desc": "Sistema brevettato per prevenire le cadute dei pazienti nei letti ospedalieri tramite sensori termici (senza telecamere, privacy garantita). Testato all'Ospedale Moinhos de Vento.",
+      "status": "Brevetto Concesso (BR 10 2015 013528-9) • Test clinici completati al 100% al HMV • Ordini in attesa.",
+      "needs": "Investimento per gli stampi di iniezione plastica del case finale e prima serie commerciale."
+    },
+    "mocap": {
+      "tag": "Hardware & Videogiochi",
+      "title": "Sanders Mocap Studio: Tuta Motion Capture",
+      "desc": "Tecnologia ibrida inerziale-laser di motion capture in tempo reale. Elimina la deriva senza subire interferenze elettromagnetiche.",
+      "status": "Architettura hardware consolidata (RP2040/BNO085) • Middleware e integrazione Unity/Godot.",
+      "needs": "Capitale per produzione circuiti finali e stazioni laser."
+    },
+    "darkmeancity": {
+      "tag": "Console Game & IP",
+      "title": "DARK MEAN CITY: The Beginning",
+      "desc": "Gioco d'azione e suspense in sviluppo per console e PC. Inserito nel concept ufficiale di PlayStation Store e Argos Real Games.",
+      "status": "Inserito nel Concept PlayStation Store • Pipeline di arte e narrativa stabilita.",
+      "needs": "Partnership strategica e co-investimento per espansione del team e pubblicazione."
+    }
+  },
+  "sml3000_page": {
+    "badge_patent": "BREVETTO CONCESSO INPI BR 10 2015 013528-9",
+    "badge_hospital": "VALIDATO ALL'OSPEDALE MOINHOS DE VENTO",
+    "title": "SML-3000 — Sistema Brevettato di Prevenzione Cadute Ospedaliere",
+    "subtitle": "Monitoraggio termico intelligente in tempo reale per proteggere i pazienti senza violare la privacy con telecamere.",
+    "cta_whatsapp": "Parla Direttamente con il Fondatore su WhatsApp",
+    "cta_teaser": "Scarica Teaser Esecutivo (PDF)",
+    "section_problem_title": "Il Problema Critico nei Letti Ospedalieri",
+    "problem_1_title": "40% degli Eventi Avversi",
+    "problem_1_desc": "Le cadute dal letto causano traumi gravi e prolungamento dei ricoveri ospedalieri.",
+    "problem_2_title": "Costi Elevati e Rischi Legali",
+    "problem_2_desc": "Ogni caduta comporta ingenti spese per interventi correttivi e risarcimenti legali.",
+    "problem_3_title": "Telecamere Vietate",
+    "problem_3_desc": "Le telecamere ottiche sono vietate nelle camere di degenza per tutelare la privacy e la dignità del paziente.",
+    "section_solution_title": "La Soluzione Brevettata: Come Funziona il SML-3000",
+    "solution_desc": "Il sistema usa una matrice termica ad alta precisione e un microcontrollore PIC per avvisare il personale infermieristico PRIMA che la caduta si verifichi.",
+    "section_status_title": "Stato Attuale del Progetto",
+    "status_1": "Brevetto di Invenzione Concesso dall'INPI (BR 10 2015 013528-9).",
+    "status_2": "Validazione clinica completata con successo all'Ospedale Moinhos de Vento.",
+    "status_3": "Piena approvazione del personale infermieristico senza falsi allarmi.",
+    "status_4": "Domanda commerciale validata in attesa del prodotto finito.",
+    "section_needs_title": "Opportunità di Investimento",
+    "needs_desc": "R&S e test clinici sono conclusi. Il capitale finanzia gli Stampi di Iniezione Plastica per la scocca finale.",
+    "partnerships_title": "Modelli di Partnership:",
+    "partner_angel": "Business Angel / Partner di Capitale tramite Contratto di Prestito Convertibile in Quote (Equity).",
+    "partner_industrial": "Partnership con Industria di Stampaggio Plastico remunerata con Royalties per unità prodotta."
+  },
   "footer": {
-    "about": "Sanvyrsoft è uno sviluppatore di software focalizzato sull'innovazione e sul futuro dell'ecosistema digitale.",
+    "about": "Sanvyrsoft sviluppa tecnologie avanzate in HealthTech, hardware all'avanguardia, videogiochi e sistemi gestionali.",
     "rights": "Tutti i diritti riservati. Sanvyrsoft.com",
-    "links": "Link Utili",
-    "legal": "Legale"
+    "links": "Link Rapidi",
+    "legal": "Note Legali & Brevetti"
   },
   "contact_form": {
-    "subtitle": "Contattaci per trasformare la tua idea in realtà.",
+    "subtitle": "Contattaci per realizzare le tue idee o discutere opportunità di investimento.",
     "name": "Nome",
     "name_placeholder": "Il tuo nome",
     "email": "E-mail",
     "email_placeholder": "tua@email.com",
     "message": "Messaggio",
     "message_placeholder": "Come possiamo aiutarti?",
-    "send": "Invia messaggio",
+    "send": "Invia Messaggio",
     "sending": "Invio in corso...",
     "success": "Messaggio inviato con successo!",
-    "error_connection": "Errore di connessione. Verifica la tua connessione internet.",
-    "error_generic": "Invio dell'e-mail fallito. Riprova più tardi."
+    "error_connection": "Errore di connessione. Riprova più tardi.",
+    "error_generic": "Invio fallito. Riprova più tardi."
   }
 }

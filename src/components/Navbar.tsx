@@ -1,25 +1,26 @@
+'use client';
+
 import React, { useState, useRef, useEffect } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import styles from './Navbar.module.css';
-import { Globe, ChevronDown } from 'lucide-react';
+import { Globe, ChevronDown, Sparkles } from 'lucide-react';
+import { useLanguage, SupportedLocale } from '@/context/LanguageContext';
 
-interface NavbarProps {
-  currentLocale: string;
-  setLocale: (locale: string) => void;
-  t: any;
-}
-
-const languages = [
-  { code: 'en', name: 'English', flag: '🇺🇸' },
+const languages: { code: SupportedLocale; name: string; flag: string }[] = [
   { code: 'pt', name: 'Português', flag: '🇧🇷' },
+  { code: 'en', name: 'English', flag: '🇺🇸' },
   { code: 'es', name: 'Español', flag: '🇪🇸' },
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
   { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
   { code: 'it', name: 'Italiano', flag: '🇮🇹' },
 ];
 
-export default function Navbar({ currentLocale, setLocale, t }: NavbarProps) {
+export default function Navbar() {
+  const { locale, setLocale, t, detectedCountry, isAutoDetected } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const pathname = usePathname();
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -32,19 +33,39 @@ export default function Navbar({ currentLocale, setLocale, t }: NavbarProps) {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const currentLang = languages.find(l => l.code === currentLocale) || languages[0];
+  const currentLang = languages.find(l => l.code === locale) || languages[0];
+  const isHomePage = pathname === '/';
 
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
-        <div className={styles.logo}>
-          <img src="/Logo_512.png" alt="Sanvyrsoft Logo" className={styles.logoImg} />
-        </div>
+        <Link href="/" className={styles.logo}>
+          <img 
+            src="/Logo_512.png" 
+            alt="Sanvyrsoft Logo" 
+            className={styles.logoImg}
+            style={{ maxHeight: '55px', width: 'auto' }}
+          />
+        </Link>
         
         <div className={styles.menu}>
-          <a href="#services" className={styles.link}>{t.nav.services}</a>
-          <a href="#about" className={styles.link}>{t.nav.about}</a>
-          <a href="#contact" className={styles.link}>{t.nav.contact}</a>
+          <Link 
+            href="/projetos" 
+            className={`${styles.link} ${styles.projectsLink}`}
+          >
+            <Sparkles size={14} color="#06b6d4" />
+            {t.nav?.projects || 'PROJETOS'}
+          </Link>
+
+          <a href={isHomePage ? '#services' : '/#services'} className={styles.link}>
+            {t.nav?.services || 'SERVIÇOS'}
+          </a>
+          <a href={isHomePage ? '#about' : '/#about'} className={styles.link}>
+            {t.nav?.about || 'QUEM SOMOS'}
+          </a>
+          <a href={isHomePage ? '#contact' : '/#contact'} className={styles.link}>
+            {t.nav?.contact || 'CONTATO'}
+          </a>
         </div>
 
         <div className={styles.langWrapper} ref={dropdownRef}>
@@ -53,6 +74,7 @@ export default function Navbar({ currentLocale, setLocale, t }: NavbarProps) {
             onClick={() => setIsOpen(!isOpen)}
             aria-haspopup="true"
             aria-expanded={isOpen}
+            title={isAutoDetected ? `Idioma detectado: ${currentLang.name} (${detectedCountry || 'Auto'})` : 'Alterar Idioma'}
           >
             <Globe size={18} className={styles.globeIcon} />
             <span className={styles.currentFlag}>{currentLang.flag}</span>
@@ -65,7 +87,7 @@ export default function Navbar({ currentLocale, setLocale, t }: NavbarProps) {
               {languages.map((lang) => (
                 <button
                   key={lang.code}
-                  className={`${styles.dropdownItem} ${currentLocale === lang.code ? styles.activeItem : ''}`}
+                  className={`${styles.dropdownItem} ${locale === lang.code ? styles.activeItem : ''}`}
                   onClick={() => {
                     setLocale(lang.code);
                     setIsOpen(false);

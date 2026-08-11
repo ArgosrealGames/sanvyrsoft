@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Home",
+    "projects": "PROJETOS",
     "services": "Serviços",
     "about": "Quem Somos",
     "portfolio": "Portfólio",
@@ -8,9 +9,9 @@
   },
   "hero": {
     "title": "Arquitetos do Futuro Digital",
-    "subtitle": "A Sanvyrsoft transforma ideias complexas em soluções de software de alta performance, games envolventes e sistemas de gestão inteligentes.",
-    "cta": "Explore o Ecossistema",
-    "secondary_cta": "Nossos Projetos"
+    "subtitle": "A Sanvyrsoft transforma ideias complexas em soluções de tecnologia de alta performance, hardware patenteado, games e sistemas inteligentes.",
+    "cta": "Conhecer Projetos",
+    "secondary_cta": "Falar no WhatsApp"
   },
   "services": {
     "title": "Nossa Expertise",
@@ -27,14 +28,71 @@
       "desc": "Softwares de gestão customizados que otimizam processos e impulsionam a produtividade da sua empresa."
     }
   },
+  "projects_hub": {
+    "badge": "OPORTUNIDADES DE INVESTIMENTO",
+    "title": "Projetos em Destaque para Aporte e Parcerias",
+    "subtitle": "Conheça nossas inovações tecnológicas proprietárias, patentes concedidas e produtos em fase de escala comercial.",
+    "cta_details": "Ver Apresentação Completa",
+    "cta_whatsapp": "Falar no WhatsApp",
+    "status_title": "Status Atual:",
+    "needs_title": "Fase Atual / O que Buscamos:",
+    "sml3000": {
+      "tag": "HealthTech Patenteada",
+      "title": "SML-3000: Monitoramento Térmico de Leito",
+      "desc": "Sistema patenteado no INPI para prevenção de quedas de pacientes em leitos hospitalares através de sensores de temperatura (sem câmeras, garantindo total privacidade). Testado e aprovado no Hospital Moinhos de Vento.",
+      "status": "Patente Concedida (BR 10 2015 013528-9) • Testes clínicos 100% concluídos no HMV • Pedidos em espera.",
+      "needs": "Aporte para fabricação dos Moldes de Injeção Plástica, Notificação ANVISA e montagem dos primeiros lotes comerciais."
+    },
+    "mocap": {
+      "tag": "Hardware & Animação 3D",
+      "title": "Mocap da Sanvyrsoft: Traje de Captura de Movimento",
+      "desc": "Macacão ergonômico profissional para captura corporal em tempo real para Unreal Engine, Unity e Godot. Tecnologia proprietária com zero drift, imune a interferências de concreto/metal e cobertura para grandes áreas.",
+      "status": "Protótipo e software validados • Streaming em tempo real para Unreal e Unity • Exportação .FBX/.BVH.",
+      "needs": "Aporte para confecção do lote de trajes industriais e lançamento comercial no mercado de games e cinema."
+    },
+    "darkmeancity": {
+      "tag": "Console Game & IP",
+      "title": "DARK MEAN CITY: The Beginning",
+      "desc": "Jogo de ação e suspense cinematográfico em desenvolvimento para consoles e PC. Listado no conceito oficial da PlayStation Store, IMDb com elenco estelar e ecossistema Argos Real Games.",
+      "status": "Listado na PlayStation Store Concept e IMDb Oficial (com elenco) • Pipeline de arte e dublagem estabelecido.",
+      "needs": "Parceria estratégica e co-investimento para expansão da equipe de produção e publicação global."
+    }
+  },
+  "sml3000_page": {
+    "badge_patent": "CARTA PATENTE INPI BR 10 2015 013528-9",
+    "badge_hospital": "VALIDADO NO HOSPITAL MOINHOS DE VENTO",
+    "title": "SML-3000 — Sistema Patenteado de Prevenção de Quedas Hospitalares",
+    "subtitle": "Monitoramento térmico inteligente em tempo real que protege pacientes e previne acidentes sem invadir a privacidade com câmeras.",
+    "cta_whatsapp": "Falar com o Fundador no WhatsApp",
+    "cta_teaser": "Baixar Teaser Executivo (PDF)",
+    "section_problem_title": "O Problema Crítico nos Leitos Hospitalares",
+    "problem_1_title": "40% dos Acidentes Hospitalares",
+    "problem_1_desc": "Quedas de leito são um dos eventos adversos mais frequentes em internações, causando fraturas e complicações severas.",
+    "problem_2_title": "Custos e Risco Jurídico",
+    "problem_2_desc": "Cada evento gera custos de R$ 30.000 a R$ 150.000 em cirurgias, UTI prolongada e processos jurídicos para o hospital.",
+    "problem_3_title": "Câmeras são Proibidas",
+    "problem_3_desc": "Câmeras ópticas comuns não podem ser usadas em quartos por violarem o pudor do paciente e normas de privacidade/LGPD.",
+    "section_solution_title": "A Solução Patenteada: Como Funciona o SML-3000",
+    "solution_desc": "O SML-3000 utiliza uma matriz de sensores térmicos de alta sensibilidade aliada a um microcontrolador dedicado com algoritmo exclusivo programado em PIC. O sistema mapeia o gradiente de calor do leito e identifica quando o paciente acorda, se move para a beirada ou tenta se levantar, enviando um alerta imediato ao Posto de Enfermagem ANTES da queda se consumar.",
+    "section_status_title": "Status Atual do Projeto (O Que Já Foi Realizado)",
+    "status_1": "Carta Patente de Invenção Concedida pelo INPI sob número BR 10 2015 013528-9.",
+    "status_2": "Validação e testes reais concluídos com sucesso no renomado Hospital Moinhos de Vento (Porto Alegre/RS).",
+    "status_3": "Aceitação total da equipe de enfermagem, sem falsos positivos de ambiente e com zero invasão de privacidade.",
+    "status_4": "Demanda de compra reprimida de clientes hospitalares aguardando as unidades finais.",
+    "section_needs_title": "O Que Falta & Oportunidade de Investimento",
+    "needs_desc": "Toda a fase de incerteza científica, prototipagem eletrônica e testes práticos já foi superada com sucesso. O capital solicitado destina-se exclusivamente à construção dos Moldes de Injeção Plástica para as carcaças industriais definitivas e lote comercial inicial.",
+    "partnerships_title": "Modalidades de Parceria Aceitas:",
+    "partner_angel": "Investidor Anjo / Sócio Capitalista via Mútuo Conversível em Participação Societária (Equity).",
+    "partner_industrial": "Parceria com Indústria de Injeção Plástica / Ferramentaria com remuneração via Royalties por unidade produzida."
+  },
   "footer": {
-    "about": "A Sanvyrsoft é uma desenvolvedora de software focada em inovação e no futuro do ecossistema digital.",
+    "about": "A Sanvyrsoft é uma desenvolvedora de tecnologia focada em inovação em HealthTech, hardware de ponta, games e sistemas inteligentes.",
     "rights": "Todos os direitos reservados. Sanvyrsoft.com",
-    "links": "Links Úteis",
-    "legal": "Jurídico"
+    "links": "Links Rápidos",
+    "legal": "Jurídico & Patentes"
   },
   "contact_form": {
-    "subtitle": "Entre em contato conosco para transformar sua ideia em realidade.",
+    "subtitle": "Entre em contato diretamente para transformar sua ideia em realidade ou conversar sobre investimentos.",
     "name": "Nome",
     "name_placeholder": "Seu nome",
     "email": "E-mail",

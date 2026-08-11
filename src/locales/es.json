@@ -1,50 +1,108 @@
 {
   "nav": {
     "home": "Inicio",
+    "projects": "PROYECTOS",
     "services": "Servicios",
     "about": "Quiénes Somos",
     "portfolio": "Portafolio",
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Arquitectos do Futuro Digital",
-    "subtitle": "Sanvyrsoft transforma ideas complejas en soluciones de software de alto rendimiento, juegos envolventes y sistemas de gestión inteligentes.",
-    "cta": "Explore el Ecosistema",
-    "secondary_cta": "Nuestros Proyectos"
+    "title": "Arquitectos del Futuro Digital",
+    "subtitle": "Sanvyrsoft transforma ideas complejas en soluciones tecnológicas de alto rendimiento, hardware patentado, videojuegos y sistemas inteligentes.",
+    "cta": "Conocer Proyectos",
+    "secondary_cta": "Hablar por WhatsApp"
   },
   "services": {
     "title": "Nuestra Experiencia",
     "saas": {
-      "title": "Software como Servicio (SaaS)",
-      "desc": "Desarrollamos plataformas escalables en la nube que resuelven problemas reales con eficiencia y diseño centrado en el usuario."
+      "title": "Hardware & HealthTech Patentado",
+      "desc": "Desarrollamos dispositivos biomédicos y sensores inteligentes con patente concedida y validación en hospitales de referencia."
     },
     "games": {
-      "title": "Juegos e Interactividad",
-      "desc": "Creamos experiencias inmersivas y mundos digitales que desafían los límites de la tecnología y el entretenimiento."
+      "title": "Juegos & Captura de Movimiento",
+      "desc": "Creamos juegos oficiales para consolas (PlayStation) y tecnología híbrida inalámbrica de captura de movimiento sin deriva."
     },
     "management": {
-      "title": "Sistemas de Gestión (ERP)",
-      "desc": "Software de gestión personalizado que optimiza los procesos e impulsa la productividad de su empresa."
+      "title": "Sistemas de Gestión & Software (ERP)",
+      "desc": "Software personalizado, algoritmos dedicados y plataformas en la nube de alta seguridad y escalabilidad."
     }
   },
+  "projects_hub": {
+    "badge": "OPORTUNIDADES DE INVERSIÓN",
+    "title": "Proyectos Destacados para Inversión y Alianzas",
+    "subtitle": "Conozca nuestras innovaciones tecnológicas propietarias, patentes otorgadas y productos en fase de escalamiento comercial.",
+    "cta_details": "Ver Presentación Completa",
+    "cta_whatsapp": "Hablar por WhatsApp",
+    "status_title": "Estado Actual:",
+    "needs_title": "Fase Actual / Capital Requerido:",
+    "sml3000": {
+      "tag": "HealthTech Patentada",
+      "title": "SML-3000: Monitoreo Térmico de Camas",
+      "desc": "Sistema patentado para prevenir caídas de pacientes hospitalarios mediante sensores térmicos (sin cámaras, garantizando total privacidad). Probado en Hospital Moinhos de Vento.",
+      "status": "Patente Concedida (BR 10 2015 013528-9) • Pruebas clínicas 100% concluidas en HMV • Pedidos en espera.",
+      "needs": "Inversión para moldes de inyección plástica de la carcasa final y lote comercial inicial."
+    },
+    "mocap": {
+      "tag": "Hardware & Videojuegos",
+      "title": "Sanders Mocap Studio: Traje de Captura de Movimiento",
+      "desc": "Tecnología híbrida inercial-láser de captura corporal en tiempo real. Elimina la deriva sin sufrir interferencias electromagnéticas, a un costo 10 veces menor que competidores extranjeros.",
+      "status": "Arquitectura de hardware consolidada (RP2040/BNO085) • Middleware e integración con Unity/Godot.",
+      "needs": "Capital para fabricación de placas finales, estaciones láser y lanzamiento comercial."
+    },
+    "darkmeancity": {
+      "tag": "Console Game & IP",
+      "title": "DARK MEAN CITY: The Beginning",
+      "desc": "Juego de acción y suspenso en desarrollo para consolas y PC. Listado en el concepto oficial de PlayStation Store y ecosistema Argos Real Games.",
+      "status": "Listado en el Concepto de PlayStation Store • Pipeline de arte y narrativa establecido.",
+      "needs": "Alianza estratégica y cofinanciamiento para expansión del equipo y publicación global."
+    }
+  },
+  "sml3000_page": {
+    "badge_patent": "PATENTE CONCEDIDA INPI BR 10 2015 013528-9",
+    "badge_hospital": "VALIDADO EN HOSPITAL MOINHOS DE VENTO",
+    "title": "SML-3000 — Sistema Patentado de Prevención de Caídas Hospitalarias",
+    "subtitle": "Monitoreo térmico inteligente en tiempo real que protege a los pacientes y previene caídas sin invadir la privacidad con cámaras.",
+    "cta_whatsapp": "Hablar Directamente con el Fundador en WhatsApp",
+    "cta_teaser": "Descargar Teaser Ejecutivo (PDF)",
+    "section_problem_title": "El Problema Crítico en Camas Hospitalarias",
+    "problem_1_title": "40% de los Incidentes Hospitalarios",
+    "problem_1_desc": "Las caídas de cama son eventos adversos frecuentes que provocan lesiones graves y estancias prolongadas.",
+    "problem_2_title": "Altos Costos y Riesgo Jurídico",
+    "problem_2_desc": "Cada caída genera pérdidas de miles de dólares en cirugías adicionales, UCI y litigios legales.",
+    "problem_3_title": "Cámaras Están Prohibidas",
+    "problem_3_desc": "Las cámaras ópticas no pueden usarse en habitaciones por violar la privacidad y normativas legales.",
+    "section_solution_title": "La Solución Patentada: Cómo Funciona el SML-3000",
+    "solution_desc": "El SML-3000 utiliza una matriz térmica de alta sensibilidad y microcontrolador PIC con algoritmo propietario para alertar a enfermería ANTES de que ocurra la caída.",
+    "section_status_title": "Estado Actual del Proyecto",
+    "status_1": "Patente de Invención Concedida por el INPI (BR 10 2015 013528-9).",
+    "status_2": "Pruebas clínicas concluidas exitosamente en el prestigioso Hospital Moinhos de Vento.",
+    "status_3": "Aprobación total por parte del equipo de enfermería sin falsas alarmas.",
+    "status_4": "Demanda comercial validada esperando el lote industrial.",
+    "section_needs_title": "Oportunidad de Inversión",
+    "needs_desc": "Todo el I+D y desarrollo electrónico está finalizado. El aporte está destinado a los moldes de inyección plástica de la carcasa industrial.",
+    "partnerships_title": "Modelos de Alianza:",
+    "partner_angel": "Inversor Ángel / Socio Capitalista vía Nota Convertible en Participación (Equity).",
+    "partner_industrial": "Alianza con Industria de Inyección Plástica remunerada con Regalías (Royalties) por unidad."
+  },
   "footer": {
-    "about": "Sanvyrsoft es un desarrollador de software enfocado en la innovación y el futuro del ecosistema digital.",
+    "about": "Sanvyrsoft es un desarrollador de tecnología enfocado en innovación en HealthTech, hardware de punta, videojuegos y sistemas inteligentes.",
     "rights": "Todos los derechos reservados. Sanvyrsoft.com",
-    "links": "Enlaces Útiles",
-    "legal": "Legal"
+    "links": "Enlaces Rápidos",
+    "legal": "Legal & Patentes"
   },
   "contact_form": {
-    "subtitle": "Contáctenos para transformar sua idea en realidad.",
+    "subtitle": "Contáctenos para transformar sus ideas en realidad o discutir oportunidades de inversión.",
     "name": "Nombre",
     "name_placeholder": "Su nombre",
-    "email": "Correo electrónico",
-    "email_placeholder": "su@email.com",
+    "email": "Correo",
+    "email_placeholder": "su@correo.com",
     "message": "Mensaje",
     "message_placeholder": "¿Cómo podemos ayudar?",
     "send": "Enviar Mensaje",
     "sending": "Enviando...",
     "success": "¡Mensaje enviado con éxito!",
-    "error_connection": "Error de conexión. Por favor, compruebe su internet.",
-    "error_generic": "Error al enviar el correo. Por favor, inténtelo de nuevo más tarde."
+    "error_connection": "Error de conexión. Intente nuevamente más tarde.",
+    "error_generic": "Error al enviar el correo. Intente más tarde."
   }
 }

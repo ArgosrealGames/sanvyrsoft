@@ -1,16 +1,17 @@
 {
   "nav": {
     "home": "Home",
+    "projects": "PROJECTS",
     "services": "Services",
-    "about": "Who We Are",
+    "about": "About Us",
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
   "hero": {
     "title": "Architects of the Digital Future",
-    "subtitle": "Sanvyrsoft transforms complex ideas into high-performance software solutions, engaging games, and intelligent management systems.",
-    "cta": "Explore the Ecosystem",
-    "secondary_cta": "Our Projects"
+    "subtitle": "Sanvyrsoft transforms complex ideas into high-performance technology solutions, patented hardware, games, and intelligent systems.",
+    "cta": "Explore Projects",
+    "secondary_cta": "Chat on WhatsApp"
   },
   "services": {
     "title": "Our Expertise",
@@ -27,14 +28,71 @@
       "desc": "Custom management software that optimizes processes and boosts your company's productivity."
     }
   },
+  "projects_hub": {
+    "badge": "INVESTMENT OPPORTUNITIES",
+    "title": "Featured Projects for Investment & Partnerships",
+    "subtitle": "Discover our proprietary technological innovations, granted patents, and products scaling towards commercial release.",
+    "cta_details": "View Full Presentation",
+    "cta_whatsapp": "Chat on WhatsApp",
+    "status_title": "Current Status:",
+    "needs_title": "Current Phase / Capital Needed:",
+    "sml3000": {
+      "tag": "Patented HealthTech",
+      "title": "SML-3000: Hospital Bed Thermal Monitoring",
+      "desc": "Patented system designed to prevent patient bed falls using thermal temperature sensors (no optical cameras, ensuring full privacy). Tested and approved at Hospital Moinhos de Vento.",
+      "status": "Granted Patent (BR 10 2015 013528-9) • Clinical trials 100% completed at HMV • Pending orders.",
+      "needs": "Investment for Industrial Injection Molds, ANVISA notification/compliance, and initial commercial production batch."
+    },
+    "mocap": {
+      "tag": "Hardware & 3D Animation",
+      "title": "Sanvyrsoft Mocap: Full Body Motion Capture Suit",
+      "desc": "Ergonomic full-body suit for real-time motion capture integrated with Unreal Engine, Unity, and Godot. Proprietary technology with zero drift, immunity to magnetic/concrete interference, and large-area capture support.",
+      "status": "Validated hardware & software • Real-time streaming to Unreal/Unity • Native .FBX/.BVH export.",
+      "needs": "Investment for industrial full-body suit manufacturing and global commercial launch in the gaming and film industries."
+    },
+    "darkmeancity": {
+      "tag": "Console Game & IP",
+      "title": "DARK MEAN CITY: The Beginning",
+      "desc": "Cinematic action & thriller game in development for consoles and PC. Officially listed on PlayStation Store Concept, IMDb with full cast & crew, and Argos Real Games ecosystem.",
+      "status": "Listed on PlayStation Store Concept & Official IMDb • Star-studded voice & character cast.",
+      "needs": "Strategic co-publishing and co-investment partnership for production scaling and global launch."
+    }
+  },
+  "sml3000_page": {
+    "badge_patent": "GRANTED PATENT INPI BR 10 2015 013528-9",
+    "badge_hospital": "VALIDATED AT HOSPITAL MOINHOS DE VENTO",
+    "title": "SML-3000 — Patented Hospital Fall Prevention System",
+    "subtitle": "Real-time intelligent thermal monitoring protecting patients and preventing falls without compromising privacy with optical cameras.",
+    "cta_whatsapp": "Talk Directly with the Founder on WhatsApp",
+    "cta_teaser": "Download Executive Teaser (PDF)",
+    "section_problem_title": "The Critical Problem in Hospital Beds",
+    "problem_1_title": "40% of Hospital Adverse Events",
+    "problem_1_desc": "Bed falls are one of the most frequent incidents during inpatient care, resulting in severe injuries and complications.",
+    "problem_2_title": "High Financial & Legal Costs",
+    "problem_2_desc": "Each fall incident generates $10k to $30k+ in extra surgeries, prolonged ICU care, and liability lawsuits.",
+    "problem_3_title": "Cameras are Restricted",
+    "problem_3_desc": "Standard optical cameras cannot be used in patient rooms due to severe privacy laws (GDPR/HIPAA/LGPD) and ethical concerns.",
+    "section_solution_title": "The Patented Solution: How SML-3000 Works",
+    "solution_desc": "The SML-3000 uses a high-sensitivity thermal sensor array combined with a dedicated microcontrolled PIC algorithm. The system continuously maps the bed temperature gradient and detects when a patient wakes up, shifts toward the edge, or attempts to stand, alerting the nursing station BEFORE the fall occurs.",
+    "section_status_title": "Current Project Status (Milestones Achieved)",
+    "status_1": "Definitive Patent of Invention Granted by INPI (BR 10 2015 013528-9).",
+    "status_2": "Clinical and operational real-world trials successfully concluded at Hospital Moinhos de Vento.",
+    "status_3": "Full acceptance by nursing staff, zero false ambient alarms, and total privacy compliance.",
+    "status_4": "Verified hospital customer demand waiting for final commercial product batch.",
+    "section_needs_title": "Next Steps & Investment Opportunity",
+    "needs_desc": "All R&D uncertainty, circuit design, and clinical testing are complete. The requested capital is solely designated for Industrial Plastic Injection Tooling (Molds) and initial commercial production batch.",
+    "partnerships_title": "Open Partnership Models:",
+    "partner_angel": "Angel Investor / Financial Partner via Convertible Promissory Note into Equity.",
+    "partner_industrial": "Industrial Plastic Injection Toolmaker Partnership remunerated via per-unit royalties."
+  },
   "footer": {
-    "about": "Sanvyrsoft is a software developer focused on innovation and the future of the digital ecosystem.",
+    "about": "Sanvyrsoft is a technology developer focused on innovations in HealthTech, cutting-edge hardware, games, and intelligent systems.",
     "rights": "All rights reserved. Sanvyrsoft.com",
-    "links": "Useful Links",
-    "legal": "Legal"
+    "links": "Quick Links",
+    "legal": "Legal & Patents"
   },
   "contact_form": {
-    "subtitle": "Contact us to transform your idea into reality.",
+    "subtitle": "Contact us to transform your ideas into reality or discuss investment opportunities.",
     "name": "Name",
     "name_placeholder": "Your name",
     "email": "Email",

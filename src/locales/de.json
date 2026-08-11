@@ -1,50 +1,108 @@
 {
   "nav": {
     "home": "Startseite",
+    "projects": "PROJEKTE",
     "services": "Leistungen",
-    "about": "Über uns",
+    "about": "Über Uns",
     "portfolio": "Portfolio",
     "contact": "Kontakt"
   },
   "hero": {
     "title": "Architekten der Digitalen Zukunft",
-    "subtitle": "Sanvyrsoft transformiert komplexe Ideen in leistungsstarke Softwarelösungen, fesselnde Spiele und intelligente Managementsysteme.",
-    "cta": "Ökosystem erkunden",
-    "secondary_cta": "Unsere Projekte"
+    "subtitle": "Sanvyrsoft verwandelt komplexe Ideen in hochmoderne Technologielösungen, patentierte Hardware, Videospiele und intelligente Systeme.",
+    "cta": "Projekte Entdecken",
+    "secondary_cta": "Auf WhatsApp Chatten"
   },
   "services": {
     "title": "Unsere Expertise",
     "saas": {
-      "title": "Software als Dienstleistung (SaaS)",
-      "desc": "Wir entwickeln skalierbare Cloud-Plattformen, die reale Probleme effizient und benutzerzentriert lösen."
+      "title": "Patentierte Hardware & HealthTech",
+      "desc": "Wir entwickeln biomedizinische Geräte und intelligente Sensoren mit erteilten Patenten und klinischer Validierung."
     },
     "games": {
-      "title": "Spiele & Interaktivität",
-      "desc": "Wir erschaffen immersive Erlebnisse und digitale Welten, die die Grenzen von Technologie und Unterhaltung erweitern."
+      "title": "Games & Motion Capture",
+      "desc": "Offizielle Konsolenspiele (PlayStation) und proprietäre kabellose Motion-Capture-Technologie ohne Drift."
     },
     "management": {
-      "title": "Managementsysteme (ERP)",
-      "desc": "Maßgeschneiderte Management-Software, die Prozesse optimiert und die Produktivität Ihres Unternehmens steigert."
+      "title": "Managementsysteme & Software (ERP)",
+      "desc": "Maßgeschneiderte Software, dedizierte Mikrocontroller-Algorithmen und hochsichere Cloud-Plattformen."
     }
   },
+  "projects_hub": {
+    "badge": "INVESTITIONSMÖGLICHKEITEN",
+    "title": "Ausgewählte Projekte für Investitionen & Partnerschaften",
+    "subtitle": "Entdecken Sie unsere proprietären technologischen Innovationen, erteilten Patente und Produkte in der Skalierungsphase.",
+    "cta_details": "Vollständige Präsentation",
+    "cta_whatsapp": "Auf WhatsApp Chatten",
+    "status_title": "Aktueller Status:",
+    "needs_title": "Aktuelle Phase / Kapitalbedarf:",
+    "sml3000": {
+      "tag": "Patentierte HealthTech",
+      "title": "SML-3000: Thermische Bettüberwachung",
+      "desc": "Patentiertes System zur Sturzprävention bei Patienten im Krankenhausbett mittels Temperatursensoren (ohne Kameras, voller Datenschutz). Validiert im Krankenhaus Moinhos de Vento.",
+      "status": "Erteiltes Patent (BR 10 2015 013528-9) • Klinische Tests im HMV abgeschlossen • Bestellungen ausstehend.",
+      "needs": "Investition für Kunststoffspritzgussformen des finalen Gehäuses und Erstserie."
+    },
+    "mocap": {
+      "tag": "Hardware & Videospiele",
+      "title": "Sanders Mocap Studio: Motion-Capture-Anzug",
+      "desc": "Hybride Inertial-Laser-Ganzkörpererfassung in Echtzeit. Eliminiert Drift ohne elektromagnetische Störungen.",
+      "status": "Hardware-Architektur konsolidiert (RP2040/BNO085) • Middleware & Unity/Godot Integration.",
+      "needs": "Kapital für Leiterplatten-Fertigung und Serienproduktion."
+    },
+    "darkmeancity": {
+      "tag": "Console Game & IP",
+      "title": "DARK MEAN CITY: The Beginning",
+      "desc": "Action-Suspense-Spiel für Konsolen und PC. Im offiziellen PlayStation Store Concept & Argos Real Games gelistet.",
+      "status": "Im PlayStation Store Concept gelistet • Art & Narrative Pipeline etabliert.",
+      "needs": "Strategische Partnerschaft & Kofinanzierung für Team-Ausbau und Publishing."
+    }
+  },
+  "sml3000_page": {
+    "badge_patent": "ERTEILTES PATENT INPI BR 10 2015 013528-9",
+    "badge_hospital": "VALIDIERT IM KRANKENHAUS MOINHOS DE VENTO",
+    "title": "SML-3000 — Patentiertes Krankenhaus-Sturzpräventionssystem",
+    "subtitle": "Echtzeit-Wärmeüberwachung zum Schutz von Patienten ohne Eingriff in die Privatsphäre durch Kameras.",
+    "cta_whatsapp": "Direkt mit dem Gründer auf WhatsApp sprechen",
+    "cta_teaser": "Executive Teaser Herunterladen (PDF)",
+    "section_problem_title": "Das Kritische Problem in Krankenhausbetten",
+    "problem_1_title": "40% der Unerwünschten Ereignisse",
+    "problem_1_desc": "Bettstürze gehören zu den häufigsten Klinikunfällen mit schweren Verletzungen.",
+    "problem_2_title": "Hohe Kosten & Haftung",
+    "problem_2_desc": "Jeder Sturz verursacht erhebliche Mehrkosten für Operationen, Intensivstation und Rechtsstreitigkeiten.",
+    "problem_3_title": "Kameras Verboten",
+    "problem_3_desc": "Optische Kameras sind in Patientenzimmern aus Datenschutzgründen strengstens untersagt.",
+    "section_solution_title": "Die Patentierte Lösung: Funktionsweise des SML-3000",
+    "solution_desc": "Das SML-3000 nutzt ein Array hochempfindlicher Wärmesensoren und einen PIC-Mikrocontroller, um das Pflegepersonal VOR dem Sturz zu alarmieren.",
+    "section_status_title": "Aktueller Projektstatus",
+    "status_1": "Erteiltes Erfindungspatent des INPI (BR 10 2015 013528-9).",
+    "status_2": "Erfolgreiche klinische Validierung im Krankenhaus Moinhos de Vento.",
+    "status_3": "Vollständige Akzeptanz durch das Pflegepersonal ohne Fehlalarme.",
+    "status_4": "Kaufnachfrage im Markt vorhanden.",
+    "section_needs_title": "Investitionsmöglichkeit",
+    "needs_desc": "F&E und Tests sind abgeschlossen. Das Kapital dient dem Bau der Spritzgussformen für das finale Gehäuse.",
+    "partnerships_title": "Mögliche Partnerschaften:",
+    "partner_angel": "Business Angel / Kapitalpartner über Wandeldarlehen in Unternehmensbeteiligung (Equity).",
+    "partner_industrial": "Partnerschaft mit Spritzgussunternehmen mit Lizenzgebühren (Royalties) pro Stück."
+  },
   "footer": {
-    "about": "Sanvyrsoft ist ein Softwareentwickler, der sich auf Innovation und die Zukunft des digitalen Ökosystems konzentriert.",
+    "about": "Sanvyrsoft entwickelt zukunftsweisende Technologien in HealthTech, Hardware, Games und Managementsystemen.",
     "rights": "Alle Rechte vorbehalten. Sanvyrsoft.com",
-    "links": "Nützliche Links",
-    "legal": "Rechtliches"
+    "links": "Schnelllinks",
+    "legal": "Rechtliches & Patente"
   },
   "contact_form": {
-    "subtitle": "Kontaktieren Sie uns, um Ihre Idee in die Realität umzusetzen.",
+    "subtitle": "Kontaktieren Sie uns für Technologieprojekte oder Investitionsgespräche.",
     "name": "Name",
     "name_placeholder": "Ihr Name",
     "email": "E-Mail",
     "email_placeholder": "ihre@email.com",
     "message": "Nachricht",
     "message_placeholder": "Wie können wir helfen?",
-    "send": "Nachricht senden",
+    "send": "Nachricht Senden",
     "sending": "Wird gesendet...",
     "success": "Nachricht erfolgreich gesendet!",
-    "error_connection": "Verbindungsfehler. Bitte überprüfen Sie Ihre Internetverbindung.",
-    "error_generic": "E-Mail konnte nicht gesendet werden. Bitte versuchen Sie es später erneut."
+    "error_connection": "Verbindungsfehler. Bitte später erneut versuchen.",
+    "error_generic": "Fehler beim Senden. Bitte später erneut versuchen."
   }
 }
