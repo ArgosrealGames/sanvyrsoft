@@ -610,9 +610,173 @@ export default function ProjetosPage() {
             </div>
           </div>
         </section>
+
+        {/* PROJETO 4: APP ENTREGA CERTA */}
+        <section id="entregacerta" style={{ padding: '70px 0', borderTop: '1px solid rgba(255, 255, 255, 0.05)' }}>
+          <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
+            <div style={{
+              background: 'linear-gradient(135deg, rgba(10, 25, 20, 0.85) 0%, rgba(6, 18, 14, 0.6) 100%)',
+              border: '1px solid rgba(16, 185, 129, 0.4)',
+              borderRadius: '24px',
+              padding: 'clamp(24px, 5vw, 48px)',
+              boxShadow: '0 20px 50px rgba(0, 0, 0, 0.5)'
+            }}>
+              <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '20px' }}>
+                <span style={{
+                  background: 'rgba(16, 185, 129, 0.15)',
+                  border: '1px solid rgba(16, 185, 129, 0.4)',
+                  color: '#34d399',
+                  fontSize: '0.8rem',
+                  fontWeight: 700,
+                  padding: '6px 14px',
+                  borderRadius: '30px'
+                }}>
+                  TELE ENTREGAS SILENCIOSAS & SUSTENTÁVEIS
+                </span>
+                <span style={{
+                  background: 'rgba(245, 158, 11, 0.15)',
+                  border: '1px solid rgba(245, 158, 11, 0.4)',
+                  color: '#fbbf24',
+                  fontSize: '0.8rem',
+                  fontWeight: 700,
+                  padding: '6px 14px',
+                  borderRadius: '30px'
+                }}>
+                  FRETE PATROCINADO (ATÉ 100% GRÁTIS)
+                </span>
+                <span style={{
+                  background: 'rgba(6, 182, 212, 0.15)',
+                  border: '1px solid rgba(6, 182, 212, 0.4)',
+                  color: '#22d3ee',
+                  fontSize: '0.8rem',
+                  fontWeight: 700,
+                  padding: '6px 14px',
+                  borderRadius: '30px'
+                }}>
+                  TAXA DE APENAS 3% PARA LOJAS
+                </span>
+              </div>
+
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '40px', alignItems: 'center' }}>
+                <div>
+                  <h2 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.5rem)', fontWeight: 800, color: '#fff', marginBottom: '16px' }}>
+                    APP Entrega Certa: Tele Entregas Sustentáveis
+                  </h2>
+
+                  <p style={{ color: 'rgba(255, 255, 255, 0.8)', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '24px' }}>
+                    Aplicativo inovador de delivery onde o <strong>consumidor ganha frete grátis</strong> ao interagir com anúncios de patrocinadores, o <strong>motoboy ganha mais de 2 salários extras por mês</strong> com motos silenciosas (surdinas homologadas) e os <strong>restaurantes pagam apenas 3%</strong> (contra 30% do iFood).
+                  </p>
+
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '28px' }}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                      <CheckCircle2 size={20} color="#34d399" style={{ flexShrink: 0, marginTop: '2px' }} />
+                      <span style={{ color: 'rgba(255, 255, 255, 0.85)', fontSize: '0.95rem' }}>
+                        <strong>Frete Grátis Subsididado por Patrocinadores:</strong> O cliente responde 1 pergunta rápida ou assiste a um comercial e zera o valor do frete.
+                      </span>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                      <CheckCircle2 size={20} color="#34d399" style={{ flexShrink: 0, marginTop: '2px' }} />
+                      <span style={{ color: 'rgba(255, 255, 255, 0.85)', fontSize: '0.95rem' }}>
+                        <strong>Super Ganhos para o Motoboy:</strong> R$ 10 base + R$ 2/km + bônus de até R$ 2.812,50/mês + seguro e plano de saúde.
+                      </span>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                      <CheckCircle2 size={20} color="#34d399" style={{ flexShrink: 0, marginTop: '2px' }} />
+                      <span style={{ color: 'rgba(255, 255, 255, 0.85)', fontSize: '0.95rem' }}>
+                        <strong>Zero Poluição Sonora:</strong> Motos com surdinas especiais e GPS que avisa o cliente no celular sem buzinas.
+                      </span>
+                    </div>
+                  </div>
+
+                  <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
+                    <Link 
+                      href="/teste-de-projetos/app-entrega-certa"
+                      style={{
+                        background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+                        color: '#fff',
+                        padding: '14px 26px',
+                        borderRadius: '10px',
+                        textDecoration: 'none',
+                        fontWeight: 800,
+                        fontSize: '0.95rem',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '8px',
+                        boxShadow: '0 4px 20px rgba(16, 185, 129, 0.4)'
+                      }}
+                    >
+                      <Sparkles size={18} />
+                      Ver Demonstração Interativa & Simulador
+                    </Link>
+
+                    <a 
+                      href={SITE_CONFIG.getWhatsappLink("Olá! Gostaria de falar sobre investimento e parcerias no projeto APP Entrega Certa.")}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        background: 'rgba(255, 255, 255, 0.08)',
+                        border: '1px solid rgba(255, 255, 255, 0.2)',
+                        color: '#fff',
+                        padding: '14px 22px',
+                        borderRadius: '10px',
+                        textDecoration: 'none',
+                        fontWeight: 600,
+                        fontSize: '0.95rem',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '8px'
+                      }}
+                    >
+                      <MessageCircle size={18} />
+                      Falar no WhatsApp
+                    </a>
+                  </div>
+                </div>
+
+                {/* Right Info Box */}
+                <div>
+                  <div style={{
+                    background: 'rgba(0, 0, 0, 0.5)',
+                    borderRadius: '20px',
+                    padding: '28px',
+                    border: '1px solid rgba(16, 185, 129, 0.25)',
+                    textAlign: 'center'
+                  }}>
+                    <img 
+                      src="/projects/entrega-certa/entrega_certa_logo.png" 
+                      alt="APP Entrega Certa" 
+                      style={{ height: '75px', width: 'auto', margin: '0 auto 16px auto', display: 'block' }}
+                      onError={(e) => {
+                        (e.target as HTMLElement).style.display = 'none';
+                      }}
+                    />
+                    <h3 style={{ fontSize: '1.25rem', fontWeight: 800, color: '#34d399', marginBottom: '8px' }}>
+                      Modelo Disruptivo de Delivery
+                    </h3>
+                    <p style={{ fontSize: '0.92rem', color: 'rgba(255,255,255,0.8)', lineHeight: 1.6, marginBottom: '20px' }}>
+                      Enquanto os apps tradicionais cobram taxas extorsivas e geram poluição sonora, o Entrega Certa une o silêncio urbano com o patrocínio de marcas para zerar o frete do cliente.
+                    </p>
+                    <div style={{
+                      background: 'rgba(16, 185, 129, 0.1)',
+                      border: '1px solid rgba(16, 185, 129, 0.3)',
+                      borderRadius: '12px',
+                      padding: '12px',
+                      color: '#a7f3d0',
+                      fontSize: '0.85rem',
+                      fontWeight: 700
+                    }}>
+                      ⚡ Demonstração no ar em: /teste-de-projetos/app-entrega-certa
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer t={t} />
     </div>
   );
 }
+

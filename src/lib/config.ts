@@ -24,6 +24,14 @@ export const SITE_CONFIG = {
       argosUrl: 'https://www.argosrealgames.com/pt/games/darkmeancity-thebeginning',
       imdbUrl: 'https://www.imdb.com/pt/title/tt13800396/',
       imdbCastUrl: 'https://www.imdb.com/pt/title/tt13800396/fullcredits/',
+    },
+    entregacerta: {
+      name: 'APP Entrega Certa',
+      title: 'Tele Entregas Silenciosas, Justas e com Frete Patrocinado',
+      testUrl: '/teste-de-projetos/app-entrega-certa',
     }
   }
 };
+
+export const APP_CONFIG = SITE_CONFIG;
+
