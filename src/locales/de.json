@@ -104,5 +104,47 @@
     "success": "Nachricht erfolgreich gesendet!",
     "error_connection": "Verbindungsfehler. Bitte später erneut versuchen.",
     "error_generic": "Fehler beim Senden. Bitte später erneut versuchen."
+  },
+  "about_section": {
+    "badge": "Ökosystem & Multidisziplinäre Entwicklung",
+    "title": "Über Uns",
+    "subtitle": "Sanvyrsoft ist ein zukunftsweisendes Technologieentwicklungsunternehmen, das fortschrittliche Software, Elektronik-Hardware, patentierte Medizintechnik, digitales Kino und Hochleistungs-Webentwicklung vereint:",
+    "divisions": [
+      {
+        "id": "software",
+        "title": "B2B-Software & ERP-Systeme",
+        "desc": "Entwicklung maßgeschneiderter ERP-Unternehmensmanagementsysteme, Cloud-SaaS-Plattformen und skalierbarer B2B-Lösungen für maximale Produktivität."
+      },
+      {
+        "id": "apps",
+        "title": "Mobile Apps (iOS & Android)",
+        "desc": "Entwicklung nativer und hybrider mobiler Apps für iOS und Android mit Fokus auf UX/UI, Sicherheit und nahtlose API-Integration."
+      },
+      {
+        "id": "electronics",
+        "title": "Elektronik & PIC-Mikrocontroller",
+        "desc": "Umfassende Elektronikprojekte vom Schaltplan bis zu komplexen ICs mit PIC-Mikrocontroller-Programmierung (Chips) und maßgeschneiderter Firmware."
+      },
+      {
+        "id": "healthtech",
+        "title": "HealthTech & Medizintechnik",
+        "desc": "Patentierte medizinische Systeme wie das SML-3000 (Krankenhaus-Sturzprävention) und Multiparameter-Vitaldatenmonitore nach höchsten Standards."
+      },
+      {
+        "id": "games",
+        "title": "PC- & Konsolenspiele",
+        "desc": "Spieleentwicklung für PlayStation, PC und moderne Konsolen mit fortschrittlicher Grafik, proprietärer Mechanik und immersiver Physik."
+      },
+      {
+        "id": "cinema",
+        "title": "Virtuelles Kino, Mocap & Postproduktion",
+        "desc": "Filmproduktion mit Unreal- und Unity-Engines, RED-Kinokameras, DaVinci Resolve-Farbkorrektur und hauseigenen Motion-Capture-Anzügen (Mocap)."
+      },
+      {
+        "id": "web_seo",
+        "title": "Websites, Google Top SEO & Markenschutz",
+        "desc": "Erstellung extrem schneller Unternehmens-Websites und Online-Shops, technische SEO für Top-Google-Rankings, Logo-Design und Markenregistrierung."
+      }
+    ]
   }
 }

@@ -104,5 +104,47 @@
     "success": "Message envoyé avec succès !",
     "error_connection": "Erreur de connexion. Veuillez réessayer plus tard.",
     "error_generic": "Échec de l'envoi. Veuillez réessayer plus tard."
+  },
+  "about_section": {
+    "badge": "Écosystème & Ingénierie Pluridisciplinaire",
+    "title": "À Propos",
+    "subtitle": "Sanvyrsoft est une entreprise de développement technologique à fort impact, alliant logiciels avancés, ingénierie électronique, matériel médical breveté, cinéma virtuel et positionnement de marque:",
+    "divisions": [
+      {
+        "id": "software",
+        "title": "Logiciels B2B & Systèmes ERP",
+        "desc": "Développement de systèmes de gestion d'entreprise sur mesure, plateformes SaaS cloud et solutions B2B évolutives pour une productivité maximale."
+      },
+      {
+        "id": "apps",
+        "title": "Applications Mobiles (iOS & Android)",
+        "desc": "Conception d'applications mobiles natives et hybrides pour iOS et Android, axées sur l'expérience utilisateur, la sécurité et l'intégration d'API."
+      },
+      {
+        "id": "electronics",
+        "title": "Ingénierie Électronique & PICs",
+        "desc": "Projets électroniques complets, de la conception de PCB aux circuits intégrés complexes avec programmation de microcontrôleurs PIC (puces) et firmware sur mesure."
+      },
+      {
+        "id": "healthtech",
+        "title": "HealthTech & Équipements Médicaux",
+        "desc": "Dispositifs médicaux brevetés tels que le SML-3000 (prévention des chutes en milieu hospitalier) et moniteurs de signes vitaux conformes aux normes hospitalières."
+      },
+      {
+        "id": "games",
+        "title": "Jeux Vidéo pour PC & Consoles",
+        "desc": "Développement de jeux vidéo pour PlayStation, PC et consoles, avec graphismes avancés, mécaniques propriétaires et physique immersive."
+      },
+      {
+        "id": "cinema",
+        "title": "Cinéma Virtuel, Mocap & Post-Production",
+        "desc": "Production cinématographique avec moteurs Unreal et Unity, caméras RED, étalonnage DaVinci Resolve et combinaisons de capture de mouvement (Mocap) propriétaires."
+      },
+      {
+        "id": "web_seo",
+        "title": "Sites Web, SEO Google & Marques",
+        "desc": "Création de sites internet d'entreprise à haute performance, référencement naturel SEO pour la 1ère page Google, création de logos et protection de marques."
+      }
+    ]
   }
 }

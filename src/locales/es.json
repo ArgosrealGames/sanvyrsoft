@@ -104,5 +104,47 @@
     "success": "¡Mensaje enviado con éxito!",
     "error_connection": "Error de conexión. Intente nuevamente más tarde.",
     "error_generic": "Error al enviar el correo. Intente más tarde."
+  },
+  "about_section": {
+    "badge": "Ecosistema e Ingeniería Multidisciplinaria",
+    "title": "Quiénes Somos",
+    "subtitle": "Sanvyrsoft es una empresa de desarrollo de tecnología de alto impacto con excelencia en múltiples sectores estratégicos, integrando software avanzado, ingeniería electrónica de hardware, tecnología médica patentada, cine digital y posicionamiento de marca de alto rendimiento:",
+    "divisions": [
+      {
+        "id": "software",
+        "title": "Software B2B y Sistemas ERP",
+        "desc": "Desarrollo de sistemas de gestión empresarial personalizados, plataformas SaaS en la nube y soluciones corporativas B2B para máxima productividad operativa."
+      },
+      {
+        "id": "apps",
+        "title": "Aplicaciones Móviles (iOS y Android)",
+        "desc": "Creación de aplicaciones nativas e híbridas para iOS y Android, con enfoque en experiencia de usuario (UX/UI), seguridad e integración fluida de APIs."
+      },
+      {
+        "id": "electronics",
+        "title": "Ingeniería Electrónica y PICs",
+        "desc": "Proyectos electrónicos integrales desde circuitos dedicados hasta CI complejos con programación de microcontroladores PIC (chips), diseño de PCB y firmware a medida."
+      },
+      {
+        "id": "healthtech",
+        "title": "HealthTech y Equipos Hospitalarios",
+        "desc": "Dispositivos médicos patentados como el SML-3000 (prevención de caídas hospitalarias) y monitores multiparamétricos de signos vitales bajo estrictas normas de salud."
+      },
+      {
+        "id": "games",
+        "title": "Videojuegos para PC y Consolas",
+        "desc": "Desarrollo de videojuegos para PlayStation, PC y consolas modernas, con gráficos avanzados, mecánicas propietarias y física inmersiva."
+      },
+      {
+        "id": "cinema",
+        "title": "Cine Virtual, Mocap y Postproducción",
+        "desc": "Producción cinematográfica con motores Unreal y Unity, cámaras RED de cine digital, postproducción y color en DaVinci Resolve y trajes de Mocap desarrollados por Sanvyrsoft."
+      },
+      {
+        "id": "web_seo",
+        "title": "Sitios Web, SEO 1ª Página y Registro de Marcas",
+        "desc": "Desarrollo de sitios web corporativos y comercio electrónico de alta velocidad, SEO para indexación en la primera página de Google, diseño de logotipos e identidad visual."
+      }
+    ]
   }
 }

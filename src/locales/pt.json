@@ -104,5 +104,47 @@
     "success": "Mensagem enviada com sucesso!",
     "error_connection": "Erro de conexão. Por favor, verifique sua internet ou tente novamente mais tarde.",
     "error_generic": "Falha ao enviar e-mail. Por favor, tente novamente mais tarde."
+  },
+  "about_section": {
+    "badge": "Ecossistema & Engenharia Multidisciplinar",
+    "title": "Quem Somos",
+    "subtitle": "A Sanvyrsoft é uma empresa de desenvolvimento de tecnologia de alto impacto com excelência em múltiplos setores estratégicos, integrando desenvolvimento de software, engenharia eletrônica de hardware, tecnologia hospitalar patenteada, cinema digital e posicionamento digital de alta performance:",
+    "divisions": [
+      {
+        "id": "software",
+        "title": "Softwares B2B & ERP",
+        "desc": "Desenvolvimento de sistemas de gestão empresarial customizados, plataformas SaaS e soluções corporativas B2B escaláveis em nuvem para automação e máxima produtividade operacional."
+      },
+      {
+        "id": "apps",
+        "title": "APPs & Dispositivos Móveis",
+        "desc": "Criação de aplicativos móveis nativos e híbridos para iOS e Android, focados em usabilidade intuitiva (UI/UX), segurança e integração fluida de APIs e pagamentos."
+      },
+      {
+        "id": "electronics",
+        "title": "Engenharia Eletrônica & PICs",
+        "desc": "Projetos eletrônicos completos desde circuitos dedicados até CIs complexos com programação de microcontroladores PICs (chips), placas de circuito impresso (PCB) e firmware sob medida."
+      },
+      {
+        "id": "healthtech",
+        "title": "HealthTech & Equipamentos Hospitalares",
+        "desc": "Desenvolvimento de dispositivos médicos patenteados como o SML-3000 (prevenção de quedas hospitalares) e monitores multiparamétricos de sinais vitais, seguindo rigorosos padrões regulatórios."
+      },
+      {
+        "id": "games",
+        "title": "Games para PC & Consoles",
+        "desc": "Criação e desenvolvimento de jogos eletrônicos para PC e Consoles (PlayStation), com computação gráfica avançada, mecânicas proprietárias e física imersiva."
+      },
+      {
+        "id": "cinema",
+        "title": "Cinema Virtual, Mocap & Pós-Produção",
+        "desc": "Produção cinematográfica com engines Unreal e Unity, câmeras RED de cinema digital, pós-produção e color grading em DaVinci Resolve e trajes proprietários de Motion Capture (Mocap) desenvolvidos pela própria Sanvyrsoft."
+      },
+      {
+        "id": "web_seo",
+        "title": "Sites, SEO 1ª Página & Registro de Marcas",
+        "desc": "Criação de sites institucionais e e-commerce de alto desempenho, estratégias de SEO para indexação na 1ª página do Google, design de logotipo, identidade visual e assessoria para registro de marcas e patentes no INPI."
+      }
+    ]
   }
 }

@@ -104,5 +104,47 @@
     "success": "Message sent successfully!",
     "error_connection": "Connection error. Please check your internet or try again later.",
     "error_generic": "Failed to send email. Please try again later."
+  },
+  "about_section": {
+    "badge": "Ecosystem & Multidisciplinary Engineering",
+    "title": "About Us",
+    "subtitle": "Sanvyrsoft is a high-impact technology development company with excellence across multiple strategic sectors, integrating advanced software, proprietary hardware electronics, patented medical technology, digital cinema, and high-performance branding:",
+    "divisions": [
+      {
+        "id": "software",
+        "title": "B2B Software & ERP Systems",
+        "desc": "Development of custom enterprise management systems, cloud SaaS platforms, and scalable B2B corporate solutions for automation and maximum productivity."
+      },
+      {
+        "id": "apps",
+        "title": "Mobile Apps (iOS & Android)",
+        "desc": "Creation of native and hybrid mobile applications for iOS and Android, focusing on intuitive UX/UI, data security, and seamless API integrations."
+      },
+      {
+        "id": "electronics",
+        "title": "Electronic Engineering & PICs",
+        "desc": "Full-cycle electronic projects from dedicated circuits to complex ICs with PIC microcontroller (chip) programming, PCB engineering, and custom firmware."
+      },
+      {
+        "id": "healthtech",
+        "title": "HealthTech & Hospital Equipment",
+        "desc": "Patented medical devices such as the SML-3000 (hospital fall prevention) and vital signs multiparametric monitors, complying with rigorous regulatory standards."
+      },
+      {
+        "id": "games",
+        "title": "PC & Console Games",
+        "desc": "Original and commissioned game development for PlayStation, PC, and consoles, featuring advanced graphics, proprietary mechanics, and immersive physics."
+      },
+      {
+        "id": "cinema",
+        "title": "Virtual Cinema, Mocap & Post-Production",
+        "desc": "Cinematic production using Unreal & Unity engines, RED digital cinema cameras, post-production & color grading in DaVinci Resolve, and proprietary Motion Capture suits developed by Sanvyrsoft."
+      },
+      {
+        "id": "web_seo",
+        "title": "Websites, Google Top SEO & Trademarks",
+        "desc": "Ultra-fast corporate websites and e-commerce, technical SEO strategies for Google 1st page ranking, logo and visual identity design, and patent/trademark registration support."
+      }
+    ]
   }
 }

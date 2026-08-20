@@ -104,5 +104,47 @@
     "success": "Messaggio inviato con successo!",
     "error_connection": "Errore di connessione. Riprova più tardi.",
     "error_generic": "Invio fallito. Riprova più tardi."
+  },
+  "about_section": {
+    "badge": "Ecosistema & Ingegneria Multidisciplinare",
+    "title": "Chi Siamo",
+    "subtitle": "Sanvyrsoft è un'azienda di sviluppo tecnologico ad alto impatto con eccellenza in molteplici settori strategici, integrando software avanzato, hardware elettronico, tecnologia medica brevettata, cinema digitale e branding ad alte prestazioni:",
+    "divisions": [
+      {
+        "id": "software",
+        "title": "Software B2B ed ERP",
+        "desc": "Sviluppo di sistemi gestionali aziendali personalizzati, piattaforme SaaS in cloud e soluzioni B2B scalabili per la massima produttività aziendale."
+      },
+      {
+        "id": "apps",
+        "title": "Applicazioni Mobili (iOS e Android)",
+        "desc": "Creazione di app native e ibride per iOS e Android con focus su esperienza utente (UX/UI), sicurezza dei dati e integrazione API fluida."
+      },
+      {
+        "id": "electronics",
+        "title": "Ingegneria Elettronica & PIC",
+        "desc": "Progetti elettronici completi, dalla progettazione di circuiti stampati (PCB) a circuiti integrati complessi con programmazione di microcontrollori PIC (chip)."
+      },
+      {
+        "id": "healthtech",
+        "title": "HealthTech & Attrezzature Ospedaliere",
+        "desc": "Dispositivi medici brevettati come il sistema SML-3000 (prevenzione cadute ospedaliere) e monitor multiparametrici dei parametri vitali."
+      },
+      {
+        "id": "games",
+        "title": "Videogiochi per PC e Console",
+        "desc": "Sviluppo di videogiochi per PlayStation, PC e console con grafica avanzata, meccaniche proprietarie e fisica immersiva."
+      },
+      {
+        "id": "cinema",
+        "title": "Cinema Virtuale, Mocap e Post-Produzione",
+        "desc": "Produzione audiovisiva con motori Unreal e Unity, telecamere RED di cinema digitale, color grading in DaVinci Resolve e tute Mocap proprietarie."
+      },
+      {
+        "id": "web_seo",
+        "title": "Siti Web, SEO 1ª Pagina Google & Marchi",
+        "desc": "Sviluppo di siti web aziendali ed e-commerce ad alta velocità, strategie SEO per la prima pagina di Google, design di loghi e registrazione marchi."
+      }
+    ]
   }
 }
