@@ -103,7 +103,20 @@
     "sending": "Wird gesendet...",
     "success": "Nachricht erfolgreich gesendet!",
     "error_connection": "Verbindungsfehler. Bitte später erneut versuchen.",
-    "error_generic": "Fehler beim Senden. Bitte später erneut versuchen."
+    "error_generic": "Fehler beim Senden. Bitte später erneut versuchen.",
+    "sector": "Wählen Sie den Zuständigkeitsbereich",
+    "sector_placeholder": "Wählen Sie die gewünschte Abteilung aus...",
+    "sector_options": {
+      "software": "B2B-Software & ERP-Systeme",
+      "apps": "Mobile Apps (iOS & Android)",
+      "electronics": "Elektronik & PIC-Mikrocontroller-Programmierung (Chips)",
+      "healthtech": "HealthTech & Medizintechnik (SML-3000)",
+      "games": "PC- & Konsolenspiele",
+      "cinema": "Virtuelles Kino, Mocap & Postproduktion",
+      "web_seo": "Websites, Google Top SEO & Markenregistrierung",
+      "support": "Technischer Support & Kundenservice",
+      "rh": "Personalabteilung (HR) / Karriere"
+    }
   },
   "about_section": {
     "badge": "Ökosystem & Multidisziplinäre Entwicklung",

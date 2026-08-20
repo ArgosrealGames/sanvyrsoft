@@ -103,7 +103,20 @@
     "sending": "Sending...",
     "success": "Message sent successfully!",
     "error_connection": "Connection error. Please check your internet or try again later.",
-    "error_generic": "Failed to send email. Please try again later."
+    "error_generic": "Failed to send email. Please try again later.",
+    "sector": "Choose Department / Sector",
+    "sector_placeholder": "Select the department you need assistance from...",
+    "sector_options": {
+      "software": "B2B Software & ERP Systems",
+      "apps": "Mobile Apps (iOS & Android)",
+      "electronics": "Electronic Engineering & PIC Microcontroller (Chips)",
+      "healthtech": "HealthTech & Hospital Equipment (SML-3000)",
+      "games": "PC & Console Games",
+      "cinema": "Virtual Cinema, Mocap & Post-Production",
+      "web_seo": "Websites, Google Top SEO & Trademark Registration",
+      "support": "Technical Support & Customer Care",
+      "rh": "Human Resources (HR) / Careers"
+    }
   },
   "about_section": {
     "badge": "Ecosystem & Multidisciplinary Engineering",

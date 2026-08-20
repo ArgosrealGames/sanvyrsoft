@@ -103,7 +103,20 @@
     "sending": "Envoi en cours...",
     "success": "Message envoyé avec succès !",
     "error_connection": "Erreur de connexion. Veuillez réessayer plus tard.",
-    "error_generic": "Échec de l'envoi. Veuillez réessayer plus tard."
+    "error_generic": "Échec de l'envoi. Veuillez réessayer plus tard.",
+    "sector": "Choisissez le Secteur de Service",
+    "sector_placeholder": "Sélectionnez le secteur pour lequel vous souhaitez un service...",
+    "sector_options": {
+      "software": "Logiciels B2B & Systèmes ERP",
+      "apps": "Applications Mobiles (iOS & Android)",
+      "electronics": "Ingénierie Électronique & Microcontrôleurs PIC (Puces)",
+      "healthtech": "HealthTech & Équipements Médicaux (SML-3000)",
+      "games": "Jeux Vidéo pour PC & Consoles",
+      "cinema": "Cinéma Virtuel, Mocap & Post-Production",
+      "web_seo": "Sites Web, SEO Google & Enregistrement de Marques",
+      "support": "Support Technique & Service Client",
+      "rh": "Ressources Humaines (RH) / Recrutement"
+    }
   },
   "about_section": {
     "badge": "Écosystème & Ingénierie Pluridisciplinaire",

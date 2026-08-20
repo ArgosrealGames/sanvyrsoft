@@ -103,7 +103,20 @@
     "sending": "Enviando...",
     "success": "¡Mensaje enviado con éxito!",
     "error_connection": "Error de conexión. Intente nuevamente más tarde.",
-    "error_generic": "Error al enviar el correo. Intente más tarde."
+    "error_generic": "Error al enviar el correo. Intente más tarde.",
+    "sector": "Elija el Sector de Atención",
+    "sector_placeholder": "Seleccione el sector para el que desea atención...",
+    "sector_options": {
+      "software": "Software B2B y Sistemas ERP",
+      "apps": "Aplicaciones Móviles (iOS y Android)",
+      "electronics": "Ingeniería Electrónica y Programación en PICs (Chips)",
+      "healthtech": "HealthTech y Equipos Hospitalarios (SML-3000)",
+      "games": "Videojuegos para PC y Consolas",
+      "cinema": "Cine Virtual, Mocap y Postproducción",
+      "web_seo": "Sitios Web, SEO 1ª Página Google y Registro de Marcas",
+      "support": "Soporte Técnico y Atención",
+      "rh": "Recursos Humanos (RH) / Trabaje con Nosotros"
+    }
   },
   "about_section": {
     "badge": "Ecosistema e Ingeniería Multidisciplinaria",

@@ -103,7 +103,20 @@
     "sending": "Enviando...",
     "success": "Mensagem enviada com sucesso!",
     "error_connection": "Erro de conexão. Por favor, verifique sua internet ou tente novamente mais tarde.",
-    "error_generic": "Falha ao enviar e-mail. Por favor, tente novamente mais tarde."
+    "error_generic": "Falha ao enviar e-mail. Por favor, tente novamente mais tarde.",
+    "sector": "Escolha o Setor de Atendimento",
+    "sector_placeholder": "Selecione o setor para o qual deseja atendimento...",
+    "sector_options": {
+      "software": "Softwares B2B & ERP",
+      "apps": "APPs & Dispositivos Móveis",
+      "electronics": "Engenharia Eletrônica & Programação em PICs (Chips)",
+      "healthtech": "HealthTech & Equipamentos Hospitalares (SML-3000)",
+      "games": "Games para PC & Consoles",
+      "cinema": "Cinema Virtual, Mocap & Pós-Produção",
+      "web_seo": "Sites, SEO 1ª Página Google & Registro de Marcas/Patentes",
+      "support": "Suporte Técnico & Atendimento",
+      "rh": "Recursos Humanos (RH) / Trabalhe Conosco"
+    }
   },
   "about_section": {
     "badge": "Ecossistema & Engenharia Multidisciplinar",

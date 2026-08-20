@@ -14,6 +14,8 @@ export default function Contact({ t }: { t: any }) {
     name_placeholder: "Seu nome",
     email: "E-mail",
     email_placeholder: "seu@email.com",
+    sector: "Escolha o Setor de Atendimento",
+    sector_placeholder: "Selecione o setor para o qual deseja atendimento...",
     message: "Mensagem",
     message_placeholder: "Como podemos ajudar?",
     send: "Enviar Mensagem",
@@ -21,6 +23,18 @@ export default function Contact({ t }: { t: any }) {
     success: "Mensagem enviada com sucesso!",
     error_connection: "Erro de conexão. Por favor, verifique sua internet ou tente novamente mais tarde.",
     error_generic: "Falha ao enviar e-mail. Por favor, tente novamente mais tarde."
+  };
+
+  const sectorOptions = contactT.sector_options || {
+    software: "Softwares B2B & ERP",
+    apps: "APPs & Dispositivos Móveis",
+    electronics: "Engenharia Eletrônica & Programação em PICs (Chips)",
+    healthtech: "HealthTech & Equipamentos Hospitalares (SML-3000)",
+    games: "Games para PC & Consoles",
+    cinema: "Cinema Virtual, Mocap & Pós-Produção",
+    web_seo: "Sites, SEO 1ª Página Google & Registro de Marcas/Patentes",
+    support: "Suporte Técnico & Atendimento",
+    rh: "Recursos Humanos (RH) / Trabalhe Conosco"
   };
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -40,7 +54,6 @@ export default function Contact({ t }: { t: any }) {
       }
     } catch (err: any) {
       console.error('Frontend Submit Error:', err);
-      // Se chegamos aqui, ou a Action deu timeout ou o servidor retornou 500
       setResult({ error: contactT.error_connection });
     } finally {
       setIsSubmitting(false);
@@ -51,7 +64,7 @@ export default function Contact({ t }: { t: any }) {
     <section id="contact" style={{ padding: '100px 0', background: 'rgba(255,255,255,0.02)' }}>
       <div style={{ maxWidth: '800px', margin: '0 auto', padding: '0 2rem' }}>
         <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>{t.nav.contact || 'Contact'}</h2>
+          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>{t.nav?.contact || 'Contato'}</h2>
           <p style={{ color: 'rgba(255,255,255,0.6)' }}>
             {contactT.subtitle}
           </p>
@@ -104,6 +117,58 @@ export default function Contact({ t }: { t: any }) {
                   }}
                 />
               </div>
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+              <label style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                {contactT.sector || "Escolha o Setor de Atendimento"}
+              </label>
+              <select
+                name="sector"
+                required
+                defaultValue=""
+                style={{ 
+                  background: 'rgba(255,255,255,0.05)', 
+                  border: '1px solid rgba(255,255,255,0.1)', 
+                  borderRadius: '12px', 
+                  padding: '0.8rem 1rem', 
+                  color: 'white',
+                  outline: 'none',
+                  cursor: 'pointer',
+                  appearance: 'auto'
+                }}
+              >
+                <option value="" disabled style={{ background: '#0f172a', color: '#94a3b8' }}>
+                  {contactT.sector_placeholder || "Selecione o setor para o qual deseja atendimento..."}
+                </option>
+                <option value="Softwares B2B & ERP" style={{ background: '#0f172a', color: '#fff' }}>
+                  {sectorOptions.software}
+                </option>
+                <option value="APPs & Dispositivos Móveis" style={{ background: '#0f172a', color: '#fff' }}>
+                  {sectorOptions.apps}
+                </option>
+                <option value="Engenharia Eletrônica & PICs" style={{ background: '#0f172a', color: '#fff' }}>
+                  {sectorOptions.electronics}
+                </option>
+                <option value="HealthTech & Equipamentos Hospitalares" style={{ background: '#0f172a', color: '#fff' }}>
+                  {sectorOptions.healthtech}
+                </option>
+                <option value="Games para PC & Consoles" style={{ background: '#0f172a', color: '#fff' }}>
+                  {sectorOptions.games}
+                </option>
+                <option value="Cinema Virtual, Mocap & Pós-Produção" style={{ background: '#0f172a', color: '#fff' }}>
+                  {sectorOptions.cinema}
+                </option>
+                <option value="Sites, SEO 1ª Página & Registro de Marcas" style={{ background: '#0f172a', color: '#fff' }}>
+                  {sectorOptions.web_seo}
+                </option>
+                <option value="Suporte Técnico" style={{ background: '#0f172a', color: '#fff' }}>
+                  {sectorOptions.support}
+                </option>
+                <option value="Recursos Humanos (RH)" style={{ background: '#0f172a', color: '#fff' }}>
+                  {sectorOptions.rh}
+                </option>
+              </select>
             </div>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>

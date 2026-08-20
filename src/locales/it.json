@@ -103,7 +103,20 @@
     "sending": "Invio in corso...",
     "success": "Messaggio inviato con successo!",
     "error_connection": "Errore di connessione. Riprova più tardi.",
-    "error_generic": "Invio fallito. Riprova più tardi."
+    "error_generic": "Invio fallito. Riprova più tardi.",
+    "sector": "Scegli il Settore di Assistenza",
+    "sector_placeholder": "Seleziona il settore per cui desideri assistenza...",
+    "sector_options": {
+      "software": "Software B2B ed ERP",
+      "apps": "Applicazioni Mobili (iOS e Android)",
+      "electronics": "Ingegneria Elettronica & Programmazione PIC (Chip)",
+      "healthtech": "HealthTech & Attrezzature Ospedaliere (SML-3000)",
+      "games": "Videogiochi per PC e Console",
+      "cinema": "Cinema Virtuale, Mocap e Post-Produzione",
+      "web_seo": "Siti Web, SEO 1ª Pagina Google & Registrazione Marchi",
+      "support": "Supporto Tecnico & Assistenza",
+      "rh": "Risorse Umane (HR) / Lavora con Noi"
+    }
   },
   "about_section": {
     "badge": "Ecosistema & Ingegneria Multidisciplinare",
