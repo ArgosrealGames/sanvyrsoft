@@ -448,7 +448,7 @@ export default function ProjetosPage() {
                   padding: '6px 14px',
                   borderRadius: '30px'
                 }}>
-                  ARGOS REAL GAMES ECOSYSTEM
+                  ARGOSREAL GAMES ECOSYSTEM
                 </span>
               </div>
 
@@ -459,7 +459,7 @@ export default function ProjetosPage() {
                   </h2>
 
                   <p style={{ color: 'rgba(255, 255, 255, 0.8)', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '24px' }}>
-                    Experiência imersiva de ação e suspense cinematográfico para consoles e PC. O título já possui presença oficial registrada na <strong>PlayStation Store Concept</strong>, ficha oficial no <strong>IMDb</strong> com elenco estelar de dublagem e atores, e ecossistema no portal <strong>Argos Real Games</strong>.
+                    Experiência imersiva de ação e suspense cinematográfico para consoles e PC. O título já possui presença oficial registrada na <strong>PlayStation Store Concept</strong>, ficha oficial no <strong>IMDb</strong> com elenco estelar de dublagem e atores, e ecossistema no portal <strong>Argosreal Games</strong>.
                   </p>
 
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '28px' }}>
@@ -569,7 +569,7 @@ export default function ProjetosPage() {
                       }}
                     >
                       <ExternalLink size={16} />
-                      Argos Real Games
+                      Argosreal Games
                     </a>
                   </div>
                 </div>
