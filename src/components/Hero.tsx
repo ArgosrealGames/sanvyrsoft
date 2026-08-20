@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './Hero.module.css';
+import { SITE_CONFIG } from '@/lib/config';
 
 interface HeroProps {
   t: any;
@@ -10,6 +11,9 @@ interface HeroProps {
 
 export default function Hero({ t }: HeroProps) {
   const titleWords = (t.hero?.title || 'Architects of the Digital Future').split(' ');
+  const whatsappUrl = SITE_CONFIG.getWhatsappLink(
+    t.hero?.whatsapp_message || 'Olá! Gostaria de conversar com a equipe da Sanvyrsoft sobre tecnologia e projetos.'
+  );
 
   return (
     <section className={styles.hero}>
@@ -30,13 +34,23 @@ export default function Hero({ t }: HeroProps) {
           <p className={styles.subtitle}>{t.hero?.subtitle}</p>
           
           <div className={styles.actions}>
-            <a href="#services" className={styles.primaryBtn} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
-              {t.hero?.cta || 'Explore o Ecossistema'}
-            </a>
-            
-            <Link href="/projetos" className={styles.secondaryBtn} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
-              {t.hero?.secondary_cta || 'Nossos Projetos'}
+            <Link 
+              href="/projetos" 
+              className={styles.primaryBtn} 
+              style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}
+            >
+              {t.hero?.cta || 'Conhecer Projetos'}
             </Link>
+            
+            <a 
+              href={whatsappUrl} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className={styles.secondaryBtn} 
+              style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}
+            >
+              {t.hero?.secondary_cta || 'Falar no WhatsApp'}
+            </a>
           </div>
         </div>
 
