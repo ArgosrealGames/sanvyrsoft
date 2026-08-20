@@ -3,9 +3,9 @@ import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "Sanvyrsoft | Inovação em Tecnologia, HealthTech e Games",
-  description: "Desenvolvimento de tecnologias de alto impacto: SML-3000 (Sistema Patenteado de Prevenção de Quedas Hospitalares), Sanders Mocap Studio e Games para Consoles.",
-  keywords: "Sanvyrsoft, SML-3000, Prevenção de Quedas, Healthtech, Patente INPI, Sanders Mocap, Dark Mean City, PlayStation, Inovação",
+  title: "Sanvyrsoft | Desenvolvimento de Software B2B/ERP, Engenharia Eletrônica & PICs, HealthTech e Games",
+  description: "Desenvolvimento de tecnologia de alto impacto: Softwares de Gestão B2B e ERP, Projetos Eletrônicos com Microcontroladores PICs (chips), Equipamentos Hospitalares Patenteados (SML-3000) e Games para Consoles e PC.",
+  keywords: "Sanvyrsoft, Software de Gestao, ERP, B2B, Projetos Eletronicos, Microcontroladores PIC, SML-3000, HealthTech, Equipamentos Hospitalares, Games PC Console, PlayStation, Inovacao",
 };
 
 export default function RootLayout({
