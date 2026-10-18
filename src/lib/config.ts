@@ -29,6 +29,15 @@ export const SITE_CONFIG = {
       name: 'APP Entrega Certa',
       title: 'Tele Entregas Silenciosas, Justas e com Frete Patrocinado',
       testUrl: '/teste-de-projetos/app-entrega-certa',
+    },
+    rotaimperial: {
+      name: 'Rota Imperial Studios',
+      title: 'Complexo Cinematográfico de 15 Hectares & Fundo Privado de Cinema',
+      location: 'Taquara - RS (Vale do Paranhana / 40 km de Gramado)',
+      url: '/rotaimperialstudios',
+      contactEmail: 'contact@sanvyrsoft.com',
+      whatsapp: '5551991867278',
+      formattedPhone: '+55 (51) 99186-7278',
     }
   }
 };

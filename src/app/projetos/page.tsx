@@ -19,7 +19,9 @@ import {
   Layers, 
   FileText,
   AlertTriangle,
-  Award
+  Award,
+  Film,
+  Building2
 } from 'lucide-react';
 
 import { SITE_CONFIG } from '@/lib/config';
@@ -101,6 +103,234 @@ export default function ProjetosPage() {
                 <MessageCircle size={18} />
                 Falar com o Fundador no WhatsApp
               </a>
+            </div>
+          </div>
+        </section>
+
+        {/* PROJETO DESTAQUE SUPREMO: ROTA IMPERIAL STUDIOS */}
+        <section id="rota-imperial" style={{ padding: '60px 0 30px 0', borderBottom: '1px solid rgba(255, 255, 255, 0.08)' }}>
+          <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
+            <div style={{
+              background: 'linear-gradient(135deg, rgba(20, 16, 11, 0.94) 0%, rgba(32, 24, 16, 0.88) 50%, rgba(15, 12, 9, 0.96) 100%)',
+              border: '1px solid rgba(245, 158, 11, 0.45)',
+              borderRadius: '24px',
+              padding: 'clamp(24px, 5vw, 48px)',
+              boxShadow: '0 20px 60px rgba(0, 0, 0, 0.6), 0 0 30px rgba(245, 158, 11, 0.1)',
+              position: 'relative',
+              overflow: 'hidden'
+            }}>
+              {/* Decorative Glow */}
+              <div style={{
+                position: 'absolute',
+                top: '-50px',
+                right: '-50px',
+                width: '250px',
+                height: '250px',
+                background: 'radial-gradient(circle, rgba(245, 158, 11, 0.18) 0%, transparent 70%)',
+                pointerEvents: 'none'
+              }} />
+
+              {/* Top Badges */}
+              <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '20px' }}>
+                <span style={{
+                  background: 'rgba(245, 158, 11, 0.2)',
+                  border: '1px solid rgba(245, 158, 11, 0.6)',
+                  color: '#fbbf24',
+                  fontSize: '0.8rem',
+                  fontWeight: 800,
+                  padding: '6px 14px',
+                  borderRadius: '30px',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '6px',
+                  letterSpacing: '0.5px'
+                }}>
+                  <Sparkles size={14} /> NOVO POLO CINEMATOGRÁFICO DO SUL DO BRASIL
+                </span>
+
+                <span style={{
+                  background: 'rgba(16, 185, 129, 0.15)',
+                  border: '1px solid rgba(16, 185, 129, 0.4)',
+                  color: '#34d399',
+                  fontSize: '0.8rem',
+                  fontWeight: 700,
+                  padding: '6px 14px',
+                  borderRadius: '30px',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '6px'
+                }}>
+                  <Building2 size={14} /> 15 HECTARES EM TAQUARA - RS (40 KM DE GRAMADO)
+                </span>
+
+                <span style={{
+                  background: 'rgba(56, 189, 248, 0.15)',
+                  border: '1px solid rgba(56, 189, 248, 0.4)',
+                  color: '#38bdf8',
+                  fontSize: '0.8rem',
+                  fontWeight: 700,
+                  padding: '6px 14px',
+                  borderRadius: '30px',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '6px'
+                }}>
+                  <ShieldCheck size={14} /> FUNDO 100% PRIVADO • INDEPENDENTE DE LEIS DE INCENTIVO
+                </span>
+              </div>
+
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '40px', alignItems: 'center' }}>
+                <div>
+                  <h2 style={{ fontSize: 'clamp(1.9rem, 3.8vw, 2.7rem)', fontWeight: 800, color: '#fff', marginBottom: '16px', lineHeight: 1.2 }}>
+                    Rota Imperial Studios: Complexo &amp; Fundo Audiovisual
+                  </h2>
+                  
+                  <p style={{ color: 'rgba(255, 255, 255, 0.85)', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '24px' }}>
+                    Desenvolvimento de um complexo de <strong>150.000 m²</strong> no Rio Grande do Sul equipado com <strong>Galpões de Som Acústicos (NC-25)</strong>, <strong>Produção Virtual em Telas de LED (Unreal Engine)</strong>, ecossistema de câmeras <strong>RED V-Raptor XL 8K</strong> e <strong>Fundo Privado de Venture Capital</strong> que liberta produtoras da burocracia estatal e oferece retorno protegido a investidores.
+                  </p>
+
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '28px' }}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                      <CheckCircle2 size={20} color="#fbbf24" style={{ flexShrink: 0, marginTop: '2px' }} />
+                      <span style={{ color: 'rgba(255, 255, 255, 0.9)', fontSize: '0.95rem' }}>
+                        <strong>Engenharia de Padrão Internacional:</strong> Sound Stage principal de 1.500 m², subestação própria de até 2 MW, Backlot e hub Dolby Atmos.
+                      </span>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                      <CheckCircle2 size={20} color="#fbbf24" style={{ flexShrink: 0, marginTop: '2px' }} />
+                      <span style={{ color: 'rgba(255, 255, 255, 0.9)', fontSize: '0.95rem' }}>
+                        <strong>Retorno Blindado (Waterfall &amp; In-Kind):</strong> O fundo recupera 100% do aporte + 15% de prêmio na primeira linha de receita antes de qualquer divisão de lucro líquido.
+                      </span>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                      <CheckCircle2 size={20} color="#fbbf24" style={{ flexShrink: 0, marginTop: '2px' }} />
+                      <span style={{ color: 'rgba(255, 255, 255, 0.9)', fontSize: '0.95rem' }}>
+                        <strong>Studio Academy &amp; Custo 30% Mais Competitivo:</strong> Formação de técnicos locais (câmera, iluminação, Unreal) em parceria com universidades do Sul.
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Status Box */}
+                  <div style={{
+                    background: 'rgba(0, 0, 0, 0.55)',
+                    border: '1px solid rgba(245, 158, 11, 0.3)',
+                    borderRadius: '14px',
+                    padding: '16px 20px',
+                    marginBottom: '28px'
+                  }}>
+                    <div style={{ color: '#fbbf24', fontWeight: 800, fontSize: '0.9rem', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <Sparkles size={16} /> FASE ATUAL / OPORTUNIDADE DE PARCERIA &amp; INVESTIMENTO:
+                    </div>
+                    <div style={{ color: 'rgba(255, 255, 255, 0.85)', fontSize: '0.9rem', lineHeight: 1.5 }}>
+                      Abertura da rodada de estruturação institucional, apresentação do Masterplan aos sócios/investidores e pré-cadastro para produtoras e técnicos da região.
+                    </div>
+                  </div>
+
+                  {/* Action Buttons */}
+                  <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
+                    <Link 
+                      href="/rotaimperialstudios"
+                      style={{
+                        background: 'linear-gradient(135deg, #d97706 0%, #b45309 100%)',
+                        color: '#fff',
+                        padding: '14px 28px',
+                        borderRadius: '10px',
+                        textDecoration: 'none',
+                        fontWeight: 800,
+                        fontSize: '0.95rem',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '8px',
+                        boxShadow: '0 4px 20px rgba(217, 119, 6, 0.45)',
+                        border: '1px solid rgba(251, 191, 36, 0.5)'
+                      }}
+                    >
+                      <Film size={18} />
+                      Acessar Portal Rota Imperial Studios
+                      <ArrowRight size={18} />
+                    </Link>
+
+                    <a 
+                      href={SITE_CONFIG.getWhatsappLink("Olá! Gostaria de falar sobre oportunidades e parcerias no projeto Rota Imperial Studios.")}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        background: 'rgba(255, 255, 255, 0.08)',
+                        border: '1px solid rgba(255, 255, 255, 0.2)',
+                        color: '#fff',
+                        padding: '14px 22px',
+                        borderRadius: '10px',
+                        textDecoration: 'none',
+                        fontWeight: 600,
+                        fontSize: '0.95rem',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '8px'
+                      }}
+                    >
+                      <MessageCircle size={18} color="#25D366" />
+                      Falar no WhatsApp
+                    </a>
+                  </div>
+                </div>
+
+                {/* Right Info Box / Newspaper Preview */}
+                <div>
+                  <Link 
+                    href="/rotaimperialstudios"
+                    style={{ textDecoration: 'none', display: 'block' }}
+                  >
+                    <div style={{
+                      background: 'rgba(0, 0, 0, 0.65)',
+                      borderRadius: '20px',
+                      padding: '20px',
+                      border: '1px solid rgba(245, 158, 11, 0.35)',
+                      textAlign: 'center',
+                      boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)'
+                    }}>
+                      <div style={{
+                        overflow: 'hidden',
+                        borderRadius: '12px',
+                        border: '1px solid rgba(245, 158, 11, 0.3)',
+                        marginBottom: '16px',
+                        background: '#111'
+                      }}>
+                        <img 
+                          src="/projects/rota-imperial/recorte_jornal.png" 
+                          alt="Recorte de Jornal - Rota Imperial Studios" 
+                          style={{ 
+                            width: '100%', 
+                            height: 'auto', 
+                            display: 'block'
+                          }}
+                        />
+                      </div>
+                      <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#fbbf24', marginBottom: '8px' }}>
+                        Prévia Oficial em Notícia
+                      </h3>
+                      <p style={{ fontSize: '0.88rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.5, marginBottom: '16px' }}>
+                        Veja a repercussão e todos os detalhes do masterplan em 3 fases, cronograma, investimentos e Studio Academy.
+                      </p>
+                      <div style={{
+                        background: 'rgba(245, 158, 11, 0.12)',
+                        border: '1px solid rgba(245, 158, 11, 0.35)',
+                        borderRadius: '10px',
+                        padding: '10px 14px',
+                        color: '#fef08a',
+                        fontSize: '0.85rem',
+                        fontWeight: 700,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '6px'
+                      }}>
+                        <span>Explorar Portal do Estúdio</span>
+                        <ArrowRight size={14} />
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </section>
